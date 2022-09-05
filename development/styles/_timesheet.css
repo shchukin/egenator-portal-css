@@ -1,0 +1,56 @@
+.timesheet {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+    .timesheet__heading {
+        margin: 0 auto;
+        max-width: 804px;
+        text-align: center;
+    }
+
+    .timesheet__data {
+        margin-top: 40px;
+    }
+        .timesheet__row {
+            display: grid;
+            grid-auto-flow: column;
+            align-items: center;
+            gap: 24px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+            .timesheet__cell {
+
+            }
+
+            /* stylelint-disable */
+            .timesheet__cell--beginning { width: 210px; }
+            .timesheet__cell--course    { width: 630px; }
+            .timesheet__cell--amount    { width: 196px; }
+            .timesheet__cell--teacher   { width: 48px; }
+            /* stylelint-enable */
+
+        .timesheet__row--head {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: var(--black);
+            border-radius: 8px;
+            font-weight: var(--extrabold);
+            font-size: var(--caption-font);
+            line-height: var(--caption-line);
+            color: #FFFFFF;
+        }
+            .timesheet__row--head .timesheet__cell {
+
+            }
+
+
+        .timesheet__row--body {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+    .timesheet__footer {
+        margin-top: 40px;
+        text-align: center;
+    }

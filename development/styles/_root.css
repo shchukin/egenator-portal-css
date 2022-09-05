@@ -35,8 +35,8 @@
     /*--body2-font-mobile: 18px;*/
     /*--body2-line-mobile: 26px;*/
 
-    /*--caption-font: 12px;*/
-    /*--caption-line: 18px;*/
+    --caption-font: 12px;
+    --caption-line: 18px;
 
     /*--headline-1-font: 18px;*/
     /*--headline-1-line: 26px;*/
@@ -45,6 +45,7 @@
     /*--headline-2-line: 28px;*/
 
     --ultrabold: 800;
+    --extrabold: 800;
 
     /*--light-green: #A8D741;*/
     /*--light-green-40pct: #DDEFB6;*/

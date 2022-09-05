@@ -1,6 +1,6 @@
 .subject {
     padding-top: 46px;
-    padding-bottom: 60px;
+    padding-bottom: 46px;
 }
     .subject__heading {
         margin-top: 0;
@@ -9,10 +9,8 @@
     }
 
     .subject__description {
-        width: 804px;
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 804px;
+        margin: 24px auto 0;
         font-size: var(--body2-font);
         line-height: var(--body2-line);
         text-align: center;
@@ -28,3 +26,8 @@
         .subject__action {
 
         }
+            .subject__action .button {
+                min-width: 290px;
+                padding-left: 44px;
+                padding-right: 44px;
+            }
