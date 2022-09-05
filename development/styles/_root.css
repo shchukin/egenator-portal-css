@@ -3,63 +3,66 @@
 
     --font-default: "Inter", sans-serif;
     --font-heading: "RF Dewi Extended";
-    --image-fallback: #CCCCCC;
+    /*--image-fallback: #CCCCCC;*/
     --black: #111111;
-    --black-8pct: rgba(0, 0, 0, 0.08);
-    --black-16pct: rgba(0, 0, 0, 0.16);
-    --black-32pct: rgba(0, 0, 0, 0.32);
-    --black-40pct: rgba(0, 0, 0, 0.4);
-    --black-40pct-hover: rgba(0, 0, 0, 0.3);
-    --black-40pct-active: rgba(0, 0, 0, 0.5);
-    --black-hover: rgba(17, 17, 17, 0.8);
-    --black-disabled-background: rgba(17, 17, 17, 0.08);
-    --black-disabled-text: rgba(17, 17, 17, 0.32);
-    --white-16pct: rgba(255, 255, 255, 0.16);
-    --white-40pct: rgba(255, 255, 255, 0.4);
-    --error: #F12260;
-    --panel-hover: rgba(0, 0, 0, 0.03);
-    --panel-active: rgba(0, 0, 0, 0.05);
-    --easeOutCirc: cubic-bezier(0, 0.55, 0.45, 1);
-    --container-padding-desktop: 32px;
-    --container-padding-mobile: 24px;
+    /*--black-8pct: rgba(0, 0, 0, 0.08);*/
+    /*--black-16pct: rgba(0, 0, 0, 0.16);*/
+    /*--black-32pct: rgba(0, 0, 0, 0.32);*/
+    /*--black-40pct: rgba(0, 0, 0, 0.4);*/
+    /*--black-40pct-hover: rgba(0, 0, 0, 0.3);*/
+    /*--black-40pct-active: rgba(0, 0, 0, 0.5);*/
+    /*--black-hover: rgba(17, 17, 17, 0.8);*/
+    /*--black-disabled-background: rgba(17, 17, 17, 0.08);*/
+    /*--black-disabled-text: rgba(17, 17, 17, 0.32);*/
+    /*--white-16pct: rgba(255, 255, 255, 0.16);*/
+    /*--white-40pct: rgba(255, 255, 255, 0.4);*/
+    /*--error: #F12260;*/
+    /*--panel-hover: rgba(0, 0, 0, 0.03);*/
+    /*--panel-active: rgba(0, 0, 0, 0.05);*/
+    /*--easeOutCirc: cubic-bezier(0, 0.55, 0.45, 1);*/
+    /*--container-padding-desktop: 32px;*/
+    /*--container-padding-mobile: 24px;*/
 
-    --body1-font: 14px;
-    --body1-line: 22px;
+    /*--body1-font: 14px;*/
+    /*--body1-line: 22px;*/
 
-    --body2-font: 16px;
-    --body2-line: 24px;
+    --body2-font: 20px;
+    --body2-line: 30px;
 
-    --buttons-default-font: 18px;
-    --buttons-default-line: 24px;
+    /*--buttons-default-font: 18px;*/
+    /*--buttons-default-line: 24px;*/
 
-    --body2-font-mobile: 18px;
-    --body2-line-mobile: 26px;
+    /*--body2-font-mobile: 18px;*/
+    /*--body2-line-mobile: 26px;*/
 
-    --caption-font: 12px;
-    --caption-line: 18px;
+    /*--caption-font: 12px;*/
+    /*--caption-line: 18px;*/
 
-    --headline-1-font: 18px;
-    --headline-1-line: 26px;
+    /*--headline-1-font: 18px;*/
+    /*--headline-1-line: 26px;*/
 
-    --headline-2-font: 20px;
-    --headline-2-line: 28px;
+    /*--headline-2-font: 20px;*/
+    /*--headline-2-line: 28px;*/
 
     --ultrabold: 800;
 
-    --light-green: #A8D741;
-    --light-green-40pct: #DDEFB6;
-    --green-icons: #A8D741;
+    /*--light-green: #A8D741;*/
+    /*--light-green-40pct: #DDEFB6;*/
+    /*--green-icons: #A8D741;*/
 
-    --beige-2: #F8F6F0;
-    --beige-4-active: #EEEBDF;
-    --beige-5-current: #FFF7CB;
+    /*--beige-2: #F8F6F0;*/
+    /*--beige-4-active: #EEEBDF;*/
+    /*--beige-5-current: #FFF7CB;*/
 
-    --math: #FAD03D;
+    /*--math: #FAD03D;*/
+    --math-2: #FAD03D;
     --russian: #34CCFF;
     --informatics: #F497E5;
+    --biology: #A8D741;
+    --physics: #7BD68A;
 
-    --header-height: 72px;
-    --black-background-separator: rgba(255, 255, 255, 0.16);
-    --black-background-hover: rgba(255, 255, 255, 0.08);
+    /*--header-height: 72px;*/
+    /*--black-background-separator: rgba(255, 255, 255, 0.16);*/
+    /*--black-background-hover: rgba(255, 255, 255, 0.08);*/
 }
 /* stylelint-enable declaration-colon-space-after */

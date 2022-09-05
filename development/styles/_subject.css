@@ -1,0 +1,30 @@
+.subject {
+    padding-top: 46px;
+    padding-bottom: 60px;
+}
+    .subject__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .subject__description {
+        width: 804px;
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: var(--body2-font);
+        line-height: var(--body2-line);
+        text-align: center;
+    }
+
+    .subject__operations {
+        margin-top: 32px;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        gap: 24px;
+    }
+        .subject__action {
+
+        }

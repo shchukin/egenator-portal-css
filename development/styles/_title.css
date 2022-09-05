@@ -1,0 +1,9 @@
+.title {
+    font-family: var(--font-heading);
+}
+
+.title--h2 {
+    font-weight: var(--ultrabold);
+    font-size: 56px;
+    line-height: 60px;
+}
