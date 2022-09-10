@@ -1,0 +1,10 @@
+.headline {
+
+}
+
+.headline--1 {
+    font-family: var(--font-heading);
+    font-weight: var(--ultrabold);
+    font-size: 18px;
+    line-height: 26px;
+}

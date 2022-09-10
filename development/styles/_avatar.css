@@ -1,0 +1,25 @@
+.avatar {
+    position: relative;
+    display: inline-flex; /* inline-block could be enough but that one inherit line-height for images smaller than 24px */
+    vertical-align: top;
+    padding: 0;
+    border: none;
+    background-color: var(--image-fallback);
+    border-radius: 50%;
+    overflow: hidden;
+}
+    .avatar__image {
+        vertical-align: top;
+        background-color: var(--image-fallback);
+        transition: transform 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+    }
+
+
+.avatar--clickable {
+    background-color: #FFFFFF; /* half white on hover */
+    cursor: pointer;
+}
+    .avatar--clickable:hover .avatar__image {
+        opacity: 0.7; /* half white on hover */
+    }
+

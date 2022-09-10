@@ -3,3 +3,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+@media (max-width: 639px) {
+    .container {
+        width: auto;
+        border-left: var(--mobile-container) solid transparent;
+        border-right: var(--mobile-container) solid transparent;
+    }
+}

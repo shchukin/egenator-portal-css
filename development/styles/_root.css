@@ -23,8 +23,8 @@
     /*--container-padding-desktop: 32px;*/
     /*--container-padding-mobile: 24px;*/
 
-    /*--body1-font: 14px;*/
-    /*--body1-line: 22px;*/
+    --body-font: 16px;
+    --body-line: 24px;
 
     --body2-font: 20px;
     --body2-line: 30px;
@@ -61,6 +61,8 @@
     --informatics: #F497E5;
     --biology: #A8D741;
     --physics: #7BD68A;
+
+    --mobile-container: 24px;
 
     /*--header-height: 72px;*/
     /*--black-background-separator: rgba(255, 255, 255, 0.16);*/
