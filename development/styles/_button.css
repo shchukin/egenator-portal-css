@@ -24,11 +24,16 @@
 }
 
 /* stylelint-disable */
-.button--math        { color: #000000; background-color: var(--math-2); }
-.button--russian     { color: #000000; background-color: var(--russian); }
-.button--informatics { color: #000000; background-color: var(--informatics); }
-.button--biology     { color: #000000; background-color: var(--biology); }
-.button--physics     { color: #000000; background-color: var(--physics); }
+.button--math              { color: #000000; background-color: var(--math-2); }
+.button--math:hover        { color: #000000; background-color: var(--math-2-light); }
+.button--russian           { color: #000000; background-color: var(--russian); }
+.button--russian:hover     { color: #000000; background-color: var(--russian-light); }
+.button--informatics       { color: #000000; background-color: var(--informatics); }
+.button--informatics:hover { color: #000000; background-color: var(--informatics-light); }
+.button--biology           { color: #000000; background-color: var(--biology); }
+.button--biology:hover     { color: #000000; background-color: var(--biology-light); }
+.button--physics           { color: #000000; background-color: var(--physics); }
+.button--physics:hover     { color: #000000; background-color: var(--physics-light); }
 /* stylelint-enable */
 
 .button--black {

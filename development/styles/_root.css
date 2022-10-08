@@ -57,10 +57,15 @@
 
     /*--math: #FAD03D;*/
     --math-2: #FAD03D;
+    --math-2-light: #FBDD78;
     --russian: #34CCFF;
+    --russian-light: #78D9FE;
     --informatics: #F497E5;
+    --informatics-light: #F7B3EB;
     --biology: #A8D741;
+    --biology-light: #BFE279;
     --physics: #7BD68A;
+    --physics-light: #A0E1A8;
 
     --mobile-container: 24px;
 
