@@ -43,6 +43,13 @@
 
 .link--text-color,
 .wysiwyg .link--text-color {
+    border-bottom-color: currentColor;
+    color: inherit;
+}
+
+.link--text-color:hover,
+.wysiwyg .link--text-color:hover {
+    border-bottom-color: transparent;
     color: inherit;
 }
 

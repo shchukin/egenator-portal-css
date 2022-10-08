@@ -130,3 +130,23 @@
     .input--larger .input__toggle-password {
         width: 62px;
     }
+
+
+@media (max-width: 639px) {
+
+    .input--larger {
+
+    }
+        .input--larger.input--has-eye .input__widget {
+            /*padding-right: 62px;*/
+        }
+
+        .input--larger .input__widget {
+            height: 56px;
+            padding: 15px 20px;
+        }
+
+        .input--larger .input__toggle-password {
+            /*width: 62px;*/
+        }
+}
