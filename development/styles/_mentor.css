@@ -65,12 +65,12 @@
                 }
 
         .mentor__heading {
-            /*margin-top: 28px;*/
-            /*padding-bottom: 28px;*/
+            margin-top: 21px;
+            padding-bottom: 36px;
             /*font-family: var(--font-heading);*/
             /*font-weight: var(--ultrabold);*/
-            /*font-size: 20px;*/
-            /*line-height: 30px;*/
+            font-size: 18px;
+            line-height: 26px;
             /*text-align: center;*/
         }
             .mentor__heading .link {

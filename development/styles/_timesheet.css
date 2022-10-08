@@ -220,4 +220,7 @@
             margin-top: 12px;
             /*text-align: center;*/
         }
+            .timesheet__footer .button {
+                width: 100%;
+            }
 }
