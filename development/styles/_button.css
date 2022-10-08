@@ -19,6 +19,10 @@
     cursor: pointer;
 }
 
+.button:hover {
+     background-color: #595959;
+}
+
 /* stylelint-disable */
 .button--math        { color: #000000; background-color: var(--math-2); }
 .button--russian     { color: #000000; background-color: var(--russian); }
@@ -32,11 +36,18 @@
     color: #FFFFFF;
 }
 
+
 .button--white {
     background-color: #FFFFFF;
     color: var(--black);
     box-shadow: inset 0 0 0 2px var(--black);
 }
+
+.button--white:hover {
+    background-color: var(--panel-hover);
+    color: #000000;
+}
+
 
 .button--secondary {
     background-color: #FFFFFF;
@@ -44,9 +55,16 @@
     box-shadow: inset 0 0 0 1px var(--black);
 }
 
+.button--secondary:hover {
+    background-color: var(--panel-hover);
+    color: #000000;
+}
+
 
 .button--larger {
-
+    padding: 16px 32px 18px;
+    font-size: 19px;
+    line-height: 28px;
 }
 
 

@@ -64,6 +64,11 @@
 
     --mobile-container: 24px;
 
+    --image-fallback: #CCCCCC;
+
+    --panel-hover: #F2F2F2;
+    --panel-active: #EAEAEA;
+
     /*--header-height: 72px;*/
     /*--black-background-separator: rgba(255, 255, 255, 0.16);*/
     /*--black-background-hover: rgba(255, 255, 255, 0.08);*/

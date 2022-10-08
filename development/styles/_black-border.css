@@ -13,3 +13,26 @@
         border: 2px solid var(--black);
         border-radius: 10px;
     }
+
+.black-border--larger {
+
+}
+    .black-border--larger::before {
+        left: 7px;
+        top: 7px;
+        border-radius: 18px;
+    }
+
+
+
+.black-border--to-left {
+
+}
+    .black-border--to-left::before {
+        left: auto;
+        right: 5px;
+    }
+
+    .black-border--to-left.black-border--larger::before {
+        right: 7px;
+    }
