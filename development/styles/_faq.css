@@ -1,7 +1,7 @@
 .faq {
     padding-top: 100px;
     padding-bottom: 120px;
-    background-color: #FAD03D;
+    background-color: var(--orange);
 }
     .faq__wrap {
         display: flex;

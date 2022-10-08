@@ -1,0 +1,51 @@
+.join {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+    .join__wrap {
+
+    }
+        .join__window {
+            padding: 80px 104px 50px;
+            border: 1px solid #000000;
+            background-image: url("../images/join.jpg");
+            background-size: 561px 462px;
+            background-repeat: no-repeat;
+            background-position: right 71px top 79px;
+            border-radius: 16px;
+        }
+
+        @media (min-resolution: 2dppx) {
+            .join__window {
+                background-image: url("../images/join@2x.jpg");
+            }
+        }
+
+            .join__body {
+
+            }
+                .join__heading {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    max-width: 598px;
+                    font-family: var(--font-heading);
+                    font-weight: var(--ultrabold);
+                    font-size: 38px;
+                    line-height: 42px;
+                }
+
+                .join__form {
+                    margin-top: 30px;
+                    max-width: 390px;
+                }
+
+                .join__social {
+                    margin-top: 32px;
+                }
+
+                .join__agreement {
+                    max-width: 410px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #616161;
+                }

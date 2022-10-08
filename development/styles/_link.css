@@ -41,10 +41,10 @@
 /*}*/
 
 
-/*.link--text-color,*/
-/*.wysiwyg .link--text-color {*/
-/*    color: inherit;*/
-/*}*/
+.link--text-color,
+.wysiwyg .link--text-color {
+    color: inherit;
+}
 
 
 .link--text-alike,

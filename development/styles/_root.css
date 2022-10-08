@@ -7,7 +7,7 @@
     --black: #111111;
     /*--black-8pct: rgba(0, 0, 0, 0.08);*/
     /*--black-16pct: rgba(0, 0, 0, 0.16);*/
-    /*--black-32pct: rgba(0, 0, 0, 0.32);*/
+    --black-32pct: rgba(0, 0, 0, 0.32);
     /*--black-40pct: rgba(0, 0, 0, 0.4);*/
     /*--black-40pct-hover: rgba(0, 0, 0, 0.3);*/
     /*--black-40pct-active: rgba(0, 0, 0, 0.5);*/
@@ -16,7 +16,7 @@
     /*--black-disabled-text: rgba(17, 17, 17, 0.32);*/
     /*--white-16pct: rgba(255, 255, 255, 0.16);*/
     /*--white-40pct: rgba(255, 255, 255, 0.4);*/
-    /*--error: #F12260;*/
+    --error: #F12260;
     /*--panel-hover: rgba(0, 0, 0, 0.03);*/
     /*--panel-active: rgba(0, 0, 0, 0.05);*/
     /*--easeOutCirc: cubic-bezier(0, 0.55, 0.45, 1);*/
@@ -55,7 +55,8 @@
     /*--beige-4-active: #EEEBDF;*/
     /*--beige-5-current: #FFF7CB;*/
 
-    /*--math: #FAD03D;*/
+    --orange: #FAD03D; /* бывший цвет math */
+
     --math-2: #FAD03D;
     --math-2-light: #FBDD78;
     --russian: #34CCFF;
