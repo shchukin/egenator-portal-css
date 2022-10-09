@@ -7,7 +7,7 @@
     }
         .join__window {
             padding: 80px 104px 50px;
-            border: 1px solid #000000;
+            border: 2px solid #000000;
             background-image: url("../images/join.jpg");
             background-size: 562px 462px;
             background-repeat: no-repeat;
