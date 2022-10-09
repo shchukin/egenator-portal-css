@@ -24,6 +24,13 @@
     }
 
 
+.black-border--big-radius {
+
+}
+    .black-border--big-radius::before {
+        border-radius: 19px;
+    }
+
 
 .black-border--to-left {
 

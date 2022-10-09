@@ -1,8 +1,36 @@
 .badge {
     display: inline-block;
     vertical-align: top;
-    padding: 1px 5px;
-    border: 1px solid #E0DFDD;
+    padding: 2px 6px;
+    box-shadow: inset 0 0 0 1px #E0DFDD;
     background-color: #FFFFFF;
     border-radius: 4px;
+    font-size: var(--caption-font);
+    line-height: var(--caption-line);
+    color: var(--black);
+}
+
+.badge--math {
+    box-shadow: none;
+    background-color: var(--math-2);
+}
+
+.badge--russian {
+    box-shadow: none;
+    background-color: var(--russian);
+}
+
+.badge--informatics {
+    box-shadow: none;
+    background-color: var(--informatics);
+}
+
+.badge--biology {
+    box-shadow: none;
+    background-color: var(--biology);
+}
+
+.badge--physics {
+    box-shadow: none;
+    background-color: var(--physics);
 }

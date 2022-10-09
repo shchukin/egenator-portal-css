@@ -1,6 +1,17 @@
 .join {
-    padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.timesheet + .join {
+    padding-top: 40px;
+}
+
+.teachers + .join {
+    padding-top: 80px;
+}
+
+.faq + .join {
+    padding-top: 80px;
 }
     .join__wrap {
 
@@ -56,9 +67,21 @@
 @media (max-width: 639px) {
 
     .join {
-        padding-top: 32px;
         padding-bottom: 64px;
     }
+
+    .timesheet + .join {
+        padding-top: 16px;
+    }
+
+    .teachers + .join {
+        padding-top: 32px;
+    }
+
+    .faq + .join {
+        padding-top: 32px;
+    }
+
         .join__wrap {
 
         }

@@ -1,0 +1,114 @@
+.teachers {
+    padding-top: 80px;
+}
+    .teachers__heading { /* on schedule page */
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: var(--font-heading);
+        font-weight: var(--ultrabold);
+        font-size: 46px;
+        line-height: 54px;
+        text-align: center;
+    }
+
+    .teachers__menu {
+        margin-top: 40px;
+        text-align: center;
+    }
+        .teachers__ribbon {
+            display: inline-flex;
+            align-items: flex-start;
+        }
+            .teachers__filter {
+                margin-left: 12px;
+                border: none;
+                background-color: transparent;
+                box-shadow: inset 0 0 0 1px var(--black);
+                border-radius: 6px;
+                padding: 13px 24px 15px;
+                font-family: var(--font-heading);
+                font-weight: var(--ultrabold);
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--black);
+                white-space: nowrap;
+                cursor: pointer;
+            }
+
+            .teachers__filter:hover {
+                background-color: var(--panel-hover);
+                color: #000000;
+            }
+
+            .teachers__filter:first-child {
+                margin-left: 0;
+            }
+
+            .teachers__filter--current,
+            .teachers__filter--current:hover {
+                background-color: var(--black);
+                box-shadow: none;
+                color: #FFFFFF;
+                cursor: default;
+            }
+
+            /* stylelint-disable */
+            .teachers__filter--math.teachers__filter--current        { background-color: var(--math-2);      color: var(--black); }
+            .teachers__filter--russian.teachers__filter--current     { background-color: var(--russian);     color: var(--black); }
+            .teachers__filter--informatics.teachers__filter--current { background-color: var(--informatics); color: var(--black); }
+            .teachers__filter--biology.teachers__filter--current     { background-color: var(--biology);     color: var(--black); }
+            .teachers__filter--physics.teachers__filter--current     { background-color: var(--physics);     color: var(--black); }
+            /* stylelint-enable */
+
+    .teachers__list {
+        margin-top: 70px;
+    }
+        .teachers__item {
+            margin-top: 60px;
+            border-top: 1px solid var(--black);
+            padding-top: 60px;
+        }
+
+        .teachers__item:first-child {
+            margin-top: 0;
+            border-top: none;
+            padding-top: 0;
+        }
+
+
+@media (max-width: 639px) {
+
+    .teachers {
+        padding-top: 64px;
+        padding-bottom: 40px;
+    }
+        .teachers__heading {
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .teachers__menu {
+            overflow-x: auto;
+            margin-left: calc(-1 * var(--mobile-container));
+            margin-right: calc(-1 * var(--mobile-container));
+        }
+            .teachers__ribbon {
+                padding-left: var(--mobile-container);
+                padding-right: var(--mobile-container);
+            }
+                .teachers__filter {
+
+                }
+
+                .teachers__filter--current {
+
+                }
+
+        .teachers__list {
+            margin-top: 50px;
+        }
+            .teachers__item {
+                margin-top: 40px;
+                padding-top: 40px;
+            }
+}
