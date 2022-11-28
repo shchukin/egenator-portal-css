@@ -41,6 +41,19 @@
 /*}*/
 
 
+.link--inverted,
+.wysiwyg .link--inverted {
+    border-bottom-color: transparent;
+    color: var(--grey-dark);
+}
+
+.link--inverted:hover,
+.wysiwyg .link--inverted:hover {
+    border-bottom-color: currentColor;
+    color: var(--white);
+}
+
+
 .link--text-color,
 .wysiwyg .link--text-color {
     border-bottom-color: currentColor;

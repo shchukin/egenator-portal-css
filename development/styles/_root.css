@@ -5,6 +5,7 @@
     --font-heading: "RF Dewi Extended";
     /*--image-fallback: #CCCCCC;*/
     --black: #111111;
+    --white: #FFFEFB;
     /*--black-8pct: rgba(0, 0, 0, 0.08);*/
     /*--black-16pct: rgba(0, 0, 0, 0.16);*/
     --black-32pct: rgba(0, 0, 0, 0.32);
@@ -74,6 +75,7 @@
 
     --panel-hover: #F2F2F2;
     --panel-active: #EAEAEA;
+    --grey-dark: #616161;
 
     /*--header-height: 72px;*/
     /*--black-background-separator: rgba(255, 255, 255, 0.16);*/

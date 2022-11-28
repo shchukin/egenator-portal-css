@@ -14,3 +14,11 @@
     font-size: 38px;
     line-height: 42px;
 }
+
+
+
+.title--h6 {
+    font-weight: var(--ultrabold);
+    font-size: 30px;
+    line-height: 37px;
+}
