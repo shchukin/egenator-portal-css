@@ -21,6 +21,10 @@
         }
 
 
+.media--sparse {
+    gap: 24px;
+}
+
 
 .media--larger {
     gap: 16px;
@@ -31,4 +35,23 @@
         .media--larger .media__icon {
             width: 28px;
             height: 28px;
+        }
+
+
+.media--inverted {
+
+}
+    .media--inverted .media__item {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.17);
+    }
+        .media--inverted .media__icon {
+
+        }
+
+    .media--inverted .media__item:hover {
+        background-color: var(--white);
+    }
+        .media--inverted .media__item:hover .media__icon {
+            fill: var(--black);
         }

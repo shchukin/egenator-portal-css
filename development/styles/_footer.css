@@ -1,14 +1,16 @@
 .footer {
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-color: var(--black);
     color: var(--white);
 }
     .footer__wrap {
         display: flex;
-        align-items: flex-start;
+        align-items: stretch;
     }
         .footer__primary {
+            position: relative;
+            padding-bottom: 60px;
             order: 2;
             margin-left: auto;
             width: 390px;
@@ -21,16 +23,20 @@
                 color: var(--white);
             }
 
-            .footer__call:hover {
-                color: var(--grey-dark);
-            }
-
             .footer__menu {
                 margin-top: 16px;
             }
                 .footer__item {
                     margin-top: 8px;
+                    font-size: 20px;
+                    line-height: 30px;
                 }
+
+            .footer__social {
+                position: absolute;
+                left: 0;
+                bottom: 12px;
+            }
 
         .footer__secondary {
             order: 1;
@@ -46,13 +52,13 @@
             }
 
             .footer__logo {
-                margin-top: 32px;
+                margin-top: 40px;
                 vertical-align: top;
                 fill: var(--white);
             }
 
             .footer__note {
-                margin-top: 4px;
+                margin-top: 6px;
             }
 
             .footer__copyright {
