@@ -10,7 +10,6 @@ var postcss      = require('gulp-postcss');
 var cssnext      = require('postcss-cssnext');
 var base64       = require('gulp-base64');
 var svgstore     = require('gulp-svgstore');
-var svgmin       = require('gulp-svgmin');
 var change       = require('gulp-change');
 
 
@@ -232,7 +231,6 @@ gulp.task('scripts', function() {
 gulp.task('symbols', function() {
     return gulp.src('development/symbols/*.svg')
         .pipe(plumber())
-        .pipe(svgmin())
         .pipe(svgstore())
         .pipe(gulp.dest('production/symbols/'));
 });
