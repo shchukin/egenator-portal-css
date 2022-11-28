@@ -27,7 +27,7 @@
                 margin-top: 16px;
             }
                 .footer__item {
-                    margin-top: 8px;
+                    margin-top: 2px;
                     font-size: 20px;
                     line-height: 30px;
                 }
@@ -65,3 +65,78 @@
                 margin-top: 16px;
                 color: var(--grey-dark);
             }
+
+
+
+@media (max-width: 639px) {
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 32px;
+        /*background-color: var(--black);*/
+        /*color: var(--white);*/
+    }
+        .footer__wrap {
+            display: block;
+            /*align-items: stretch;*/
+        }
+            .footer__primary {
+                /*position: relative;*/
+                padding-bottom: 0;
+                /*order: 2;*/
+                /*margin-left: auto;*/
+                width: auto;
+                /*flex-shrink: 0;*/
+            }
+                .footer__call {
+                    /*display: inline-block;*/
+                    /*vertical-align: top;*/
+                    /*text-decoration: none;*/
+                    /*color: var(--white);*/
+                }
+
+                .footer__menu {
+                    /*margin-top: 16px;*/
+                }
+                    .footer__item {
+                        /*margin-top: 8px;*/
+                        /*font-size: 20px;*/
+                        /*line-height: 30px;*/
+                    }
+
+                .footer__social {
+                    margin-top: 20px;
+                    position: static;
+                    /*left: 0;*/
+                    /*bottom: 12px;*/
+                }
+
+            .footer__secondary {
+                margin-top: 40px;
+                /*order: 1;*/
+                width: auto;
+                /*flex-shrink: 0;*/
+            }
+                .footer__intro {
+
+                }
+
+                .footer__form {
+                    /*margin-top: 16px;*/
+                }
+
+                .footer__logo {
+                    /*margin-top: 40px;*/
+                    /*vertical-align: top;*/
+                    /*fill: var(--white);*/
+                }
+
+                .footer__note {
+                    /*margin-top: 6px;*/
+                }
+
+                .footer__copyright {
+                    /*margin-top: 16px;*/
+                    /*color: var(--grey-dark);*/
+                }
+}
