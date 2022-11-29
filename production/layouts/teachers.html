@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Преподаватели</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../styles/style.css?1669637052">
+        <link rel="stylesheet" href="../styles/style.css?1669695949">
     </head>
     <body>
 
@@ -16,268 +16,306 @@
         </div>
         <![endif]-->
 
-        <section class="teachers container">
-            <h1 class="teachers__heading">
-                Преподаватели
-            </h1>
-            <div class="teachers__menu hide-scrollbar">
-                <div class="teachers__ribbon">
-                    <button class="teachers__filter teachers__filter--all" type="button">Все преподаватели</button>
-                    <button class="teachers__filter teachers__filter--math" type="button">Математика</button>
-                    <button class="teachers__filter teachers__filter--russian" type="button">Русский язык</button>
-                    <button class="teachers__filter teachers__filter--informatics teachers__filter--current" type="button">Информатика</button>
-                    <button class="teachers__filter teachers__filter--biology" type="button">Биология</button>
-                    <button class="teachers__filter teachers__filter--physics" type="button">Физика</button>
+        <header class="header">
+            <div class="header__wrap container">
+                <div class="header__panel">
+                    <button class="header__toggler" type="button">
+                        <svg class="header__burger" width="32" height="32">
+                            <use xlink:href="../symbols/symbols.svg?1669695949#header-burger"></use>
+                        </svg>
+                        <svg class="header__close" width="32" height="32">
+                            <use xlink:href="../symbols/symbols.svg?1669695949#header-close"></use>
+                        </svg>
+                    </button>
+                    <a class="header__logo" href="#">
+                        <svg class="header__emblem" width="165" height="28">
+                            <use xlink:href="../symbols/symbols.svg?1669695949#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__dropdown">
+                    <div class="header__contacts">
+                        <a class="header__phone title title--h6" href="tel:+78001872277">8 800 187 22 77</a>
+                        <div class="header__callback">
+                            <a class="link link--white" href="#">Перезвоните мне</a>
+                        </div>
+                    </div>
+                    <a class="header__auth" href="#">
+                        <div class="header__preview">
+                            <img class="header__avatar" src="../content/ironman.svg" width="48" height="48" alt="">
+                        </div>
+                        <div class="header__login">
+                            Войти
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="teachers__list">
-                <article class="teachers__item instructor">
-                    <div class="instructor__summary">
-                        <article class="instructor__photo mentor mentor--small">
-                            <div class="mentor__preview black-border black-border--big-radius black-border--to-left">
-                                <a class="mentor__card" href="#">
-                                    <img class="mentor__photo"
-                                         srcset="../temp/mentor-a@2x.jpg 2x"
-                                         src="../temp/mentor-a.jpg"
-                                         width="242"
-                                         height="366"
-                                         alt=""
-                                    >
-                                </a>
+        </header>
+        <div class="page">
+            <section class="teachers container">
+                <h1 class="teachers__heading">
+                    Преподаватели
+                </h1>
+                <div class="teachers__menu hide-scrollbar">
+                    <div class="teachers__ribbon">
+                        <button class="teachers__filter teachers__filter--all" type="button">Все преподаватели</button>
+                        <button class="teachers__filter teachers__filter--math" type="button">Математика</button>
+                        <button class="teachers__filter teachers__filter--russian" type="button">Русский язык</button>
+                        <button class="teachers__filter teachers__filter--informatics teachers__filter--current" type="button">Информатика</button>
+                        <button class="teachers__filter teachers__filter--biology" type="button">Биология</button>
+                        <button class="teachers__filter teachers__filter--physics" type="button">Физика</button>
+                    </div>
+                </div>
+                <div class="teachers__list">
+                    <article class="teachers__item instructor">
+                        <div class="instructor__summary">
+                            <article class="instructor__photo mentor mentor--small">
+                                <div class="mentor__preview black-border black-border--big-radius black-border--to-left">
+                                    <a class="mentor__card" href="#">
+                                        <img class="mentor__photo"
+                                             srcset="../temp/mentor-a@2x.jpg 2x"
+                                             src="../temp/mentor-a.jpg"
+                                             width="242"
+                                             height="366"
+                                             alt=""
+                                        >
+                                    </a>
+                                </div>
+                            </article>
+                            <div class="instructor__social">
+                                <div class="media">
+                                    <a class="media__item" href="#">
+                                        <svg class="media__icon" width="24" height="24">
+                                            <use xlink:href="../symbols/symbols.svg?1669695949#media-vk"></use>
+                                        </svg>
+                                    </a>
+                                    <a class="media__item" href="#">
+                                        <svg class="media__icon" width="24" height="24">
+                                            <use xlink:href="../symbols/symbols.svg?1669695949#media-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
-                        </article>
-                        <div class="instructor__social">
-                            <div class="media">
+                        </div>
+                        <div class="instructor__data">
+                            <div class="instructor__area">
+                                <div class="instructor__subject badge badge--informatics">Информатика</div>
+                                <div class="instructor__subject badge badge--math">Математика</div>
+                            </div>
+                            <h2 class="instructor__heading">
+                                Романова Ева Никитична
+                            </h2>
+                            <div class="instructor__description wysiwyg">
+                                <p>Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда. Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда.</p>
+                            </div>
+                            <div class="instructor__menu">
+                                <div class="instructor__item">
+                                    <a class="link link--text-alike" href="#">Профильный ЕГЭ по математике, 11 классы</a>
+                                </div>
+                                <div class="instructor__item">
+                                    <a class="link link--text-alike" href="#">Базовый ЕГЭ по математике, 10-11 классы</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="teachers__item instructor">
+                        <div class="instructor__summary">
+                            <article class="instructor__photo mentor mentor--small">
+                                <div class="mentor__preview black-border black-border--big-radius black-border--to-left">
+                                    <a class="mentor__card" href="#">
+                                        <img class="mentor__photo"
+                                             srcset="../temp/mentor-b@2x.jpg 2x"
+                                             src="../temp/mentor-b.jpg"
+                                             width="242"
+                                             height="366"
+                                             alt=""
+                                        >
+                                    </a>
+                                </div>
+                            </article>
+                            <div class="instructor__social">
+                                <div class="media">
+                                    <a class="media__item" href="#">
+                                        <svg class="media__icon" width="24" height="24">
+                                            <use xlink:href="../symbols/symbols.svg?1669695949#media-vk"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor__data">
+                            <div class="instructor__area">
+                                <div class="instructor__subject badge badge--informatics">Информатика</div>
+                                <div class="instructor__subject badge badge--math">Математика</div>
+                            </div>
+                            <h2 class="instructor__heading">
+                                Романова Ева Никитична
+                            </h2>
+                            <div class="instructor__description wysiwyg">
+                                <p>Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда. Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда.</p>
+                            </div>
+                            <div class="instructor__menu">
+                                <div class="instructor__item">
+                                    <a class="link link--text-alike" href="#">Профильный ЕГЭ по математике, 11 классы</a>
+                                </div>
+                                <div class="instructor__item">
+                                    <a class="link link--text-alike" href="#">Базовый ЕГЭ по математике, 10-11 классы</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="teachers__item instructor">
+                        <div class="instructor__summary">
+                            <article class="instructor__photo mentor mentor--small">
+                                <div class="mentor__preview black-border black-border--big-radius black-border--to-left">
+                                    <a class="mentor__card" href="#">
+                                        <img class="mentor__photo"
+                                             srcset="../temp/mentor-c@2x.jpg 2x"
+                                             src="../temp/mentor-c.jpg"
+                                             width="242"
+                                             height="366"
+                                             alt=""
+                                        >
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="instructor__data">
+                            <div class="instructor__area">
+                                <div class="instructor__subject badge badge--informatics">Информатика</div>
+                                <div class="instructor__subject badge badge--math">Математика</div>
+                            </div>
+                            <h2 class="instructor__heading">
+                                Романова Ева Никитична
+                            </h2>
+                            <div class="instructor__description wysiwyg">
+                                <p>Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда. Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда.</p>
+                            </div>
+                            <div class="instructor__menu">
+                                <div class="instructor__item">
+                                    <a class="link link--text-alike" href="#">Профильный ЕГЭ по математике, 11 классы</a>
+                                </div>
+                                <div class="instructor__item">
+                                    <a class="link link--text-alike" href="#">Базовый ЕГЭ по математике, 10-11 классы</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="join">
+                <div class="join__wrap container">
+                    <div class="join__window">
+                        <div class="join__body">
+                            <h2 class="join__heading">
+                                Присоединяйся
+                                к&nbsp;сообществу учеников
+                                со&nbsp;всей страны
+                            </h2>
+                            <form class="join__form subscription subscription--vertical">
+                                <div class="subscription__body">
+                                    <div class="subscription__field">
+                                        <label class="label" for="email">Электронная почта <span class="required">*</span></label>
+                                        <div class="input input--larger">
+                                            <input class="input__widget" type="email" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="subscription__submit">
+                                        <div class="black-shadow">
+                                            <button class="button button--orange button--larger" type="button">
+                                                Начать заниматься
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="join__social media media--larger">
                                 <a class="media__item" href="#">
                                     <svg class="media__icon" width="24" height="24">
-                                        <use xlink:href="../symbols/symbols.svg?1669637052#media-vk"></use>
+                                        <use xlink:href="../symbols/symbols.svg?1669695949#media-vk"></use>
                                     </svg>
                                 </a>
                                 <a class="media__item" href="#">
                                     <svg class="media__icon" width="24" height="24">
-                                        <use xlink:href="../symbols/symbols.svg?1669637052#media-instagram"></use>
+                                        <use xlink:href="../symbols/symbols.svg?1669695949#media-instagram"></use>
                                     </svg>
                                 </a>
                             </div>
+                            <div class="join__agreement">
+                                Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
+                                на&nbsp;<a class="link link--text-color" href="#">Условия пользования сервисом</a> и <a class="link link--text-color" href="#">Политикой конфиденциальности</a>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="instructor__data">
-                        <div class="instructor__area">
-                            <div class="instructor__subject badge badge--informatics">Информатика</div>
-                            <div class="instructor__subject badge badge--math">Математика</div>
-                        </div>
-                        <h2 class="instructor__heading">
-                            Романова Ева Никитична
-                        </h2>
-                        <div class="instructor__description wysiwyg">
-                            <p>Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда. Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда.</p>
-                        </div>
-                        <div class="instructor__menu">
-                            <div class="instructor__item">
-                                <a class="link link--text-alike" href="#">Профильный ЕГЭ по математике, 11 классы</a>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer__wrap container">
+                    <div class="footer__primary">
+                        <a class="footer__phone title title--h5" href="tel:+78001872277">
+                            8 800 187 22 77
+                        </a>
+                        <div class="footer__menu">
+                            <div class="footer__item">
+                                <a class="link link--inverted" href="#">Помощь</a>
                             </div>
-                            <div class="instructor__item">
-                                <a class="link link--text-alike" href="#">Базовый ЕГЭ по математике, 10-11 классы</a>
+                            <div class="footer__item">
+                                <a class="link link--inverted" href="#">Личный кабинет</a>
                             </div>
+                            <div class="footer__item">
+                                <a class="link link--inverted" href="#">Журнал</a>
+                            </div>
+                        </div>
+                        <div class="footer__social media media--inverted media--sparse">
+                            <a class="media__item" href="#">
+                                <svg class="media__icon">
+                                    <use xlink:href="../symbols/symbols.svg?1669695949#media-vk"></use>
+                                </svg>
+                            </a>
+                            <a class="media__item" href="#">
+                                <svg class="media__icon">
+                                    <use xlink:href="../symbols/symbols.svg?1669695949#media-instagram"></use>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                </article>
-                <article class="teachers__item instructor">
-                    <div class="instructor__summary">
-                        <article class="instructor__photo mentor mentor--small">
-                            <div class="mentor__preview black-border black-border--big-radius black-border--to-left">
-                                <a class="mentor__card" href="#">
-                                    <img class="mentor__photo"
-                                         srcset="../temp/mentor-b@2x.jpg 2x"
-                                         src="../temp/mentor-b.jpg"
-                                         width="242"
-                                         height="366"
-                                         alt=""
-                                    >
-                                </a>
-                            </div>
-                        </article>
-                        <div class="instructor__social">
-                            <div class="media">
-                                <a class="media__item" href="#">
-                                    <svg class="media__icon" width="24" height="24">
-                                        <use xlink:href="../symbols/symbols.svg?1669637052#media-vk"></use>
-                                    </svg>
-                                </a>
-                            </div>
+                    <div class="footer__secondary">
+                        <div class="footer__intro">
+                            Получайте эксклюзивные новости о&nbsp;предстоящих курсах и&nbsp;новостях в&nbsp;сообществе ЕГЭнатор
                         </div>
-                    </div>
-                    <div class="instructor__data">
-                        <div class="instructor__area">
-                            <div class="instructor__subject badge badge--informatics">Информатика</div>
-                            <div class="instructor__subject badge badge--math">Математика</div>
-                        </div>
-                        <h2 class="instructor__heading">
-                            Романова Ева Никитична
-                        </h2>
-                        <div class="instructor__description wysiwyg">
-                            <p>Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда. Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда.</p>
-                        </div>
-                        <div class="instructor__menu">
-                            <div class="instructor__item">
-                                <a class="link link--text-alike" href="#">Профильный ЕГЭ по математике, 11 классы</a>
-                            </div>
-                            <div class="instructor__item">
-                                <a class="link link--text-alike" href="#">Базовый ЕГЭ по математике, 10-11 классы</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="teachers__item instructor">
-                    <div class="instructor__summary">
-                        <article class="instructor__photo mentor mentor--small">
-                            <div class="mentor__preview black-border black-border--big-radius black-border--to-left">
-                                <a class="mentor__card" href="#">
-                                    <img class="mentor__photo"
-                                         srcset="../temp/mentor-c@2x.jpg 2x"
-                                         src="../temp/mentor-c.jpg"
-                                         width="242"
-                                         height="366"
-                                         alt=""
-                                    >
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="instructor__data">
-                        <div class="instructor__area">
-                            <div class="instructor__subject badge badge--informatics">Информатика</div>
-                            <div class="instructor__subject badge badge--math">Математика</div>
-                        </div>
-                        <h2 class="instructor__heading">
-                            Романова Ева Никитична
-                        </h2>
-                        <div class="instructor__description wysiwyg">
-                            <p>Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда. Каждую неделю на почту или телефон родителя отправляются отчеты об успеваемости. Можно настроить, кому отправлять и когда.</p>
-                        </div>
-                        <div class="instructor__menu">
-                            <div class="instructor__item">
-                                <a class="link link--text-alike" href="#">Профильный ЕГЭ по математике, 11 классы</a>
-                            </div>
-                            <div class="instructor__item">
-                                <a class="link link--text-alike" href="#">Базовый ЕГЭ по математике, 10-11 классы</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="join">
-            <div class="join__wrap container">
-                <div class="join__window">
-                    <div class="join__body">
-                        <h2 class="join__heading">
-                            Присоединяйся
-                            к&nbsp;сообществу учеников
-                            со&nbsp;всей страны
-                        </h2>
-                        <form class="join__form subscription subscription--vertical">
+                        <form class="footer__form subscription subscription--smaller">
                             <div class="subscription__body">
                                 <div class="subscription__field">
-                                    <label class="label" for="email">Электронная почта <span class="required">*</span></label>
-                                    <div class="input input--larger">
-                                        <input class="input__widget" type="email" id="email">
+                                    <div class="input">
+                                        <input class="input__widget" type="email" id="footer-email-subscription" placeholder="Введите ваш email">
                                     </div>
                                 </div>
                                 <div class="subscription__submit">
-                                    <div class="black-shadow">
-                                        <button class="button button--orange button--larger" type="button">
-                                            Начать заниматься
-                                        </button>
-                                    </div>
+                                    <button class="button button--orange" type="button">
+                                        Подписаться
+                                    </button>
                                 </div>
                             </div>
                         </form>
-                        <div class="join__social media media--larger">
-                            <a class="media__item" href="#">
-                                <svg class="media__icon" width="24" height="24">
-                                    <use xlink:href="../symbols/symbols.svg?1669637052#media-vk"></use>
-                                </svg>
-                            </a>
-                            <a class="media__item" href="#">
-                                <svg class="media__icon" width="24" height="24">
-                                    <use xlink:href="../symbols/symbols.svg?1669637052#media-instagram"></use>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="join__agreement">
-                            Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
-                            на&nbsp;<a class="link link--text-color" href="#">Условия пользования сервисом</a> и <a class="link link--text-color" href="#">Политикой конфиденциальности</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer__wrap container">
-                <div class="footer__primary">
-                    <a class="footer__call title title--h6" href="tel:+78001872277">
-                        8 800 187 22 77
-                    </a>
-                    <div class="footer__menu">
-                        <div class="footer__item">
-                            <a class="link link--inverted" href="#">Помощь</a>
-                        </div>
-                        <div class="footer__item">
-                            <a class="link link--inverted" href="#">Личный кабинет</a>
-                        </div>
-                        <div class="footer__item">
-                            <a class="link link--inverted" href="#">Журнал</a>
-                        </div>
-                    </div>
-                    <div class="footer__social media media--inverted media--sparse">
-                        <a class="media__item" href="#">
-                            <svg class="media__icon">
-                                <use xlink:href="../symbols/symbols.svg?1669637052#media-vk"></use>
+                        <a class="footer__logo" href="#">
+                            <svg class="footer__emblem" width="165" height="28">
+                                <use xlink:href="../symbols/symbols.svg?1669695949#logo"></use>
                             </svg>
                         </a>
-                        <a class="media__item" href="#">
-                            <svg class="media__icon">
-                                <use xlink:href="../symbols/symbols.svg?1669637052#media-instagram"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer__secondary">
-                    <div class="footer__intro">
-                        Получайте эксклюзивные новости о&nbsp;предстоящих курсах и&nbsp;новостях в&nbsp;сообществе ЕГЭнатор
-                    </div>
-                    <form class="footer__form subscription subscription--smaller">
-                        <div class="subscription__body">
-                            <div class="subscription__field">
-                                <div class="input">
-                                    <input class="input__widget" type="email" id="footer-email-subscription" placeholder="Введите ваш email">
-                                </div>
-                            </div>
-                            <div class="subscription__submit">
-                                <button class="button button--orange" type="button">
-                                    Подписаться
-                                </button>
-                            </div>
+                        <div class="footer__note caption">
+                            Доступно, качественно, для лучшего будущего молодежи и&nbsp;России
                         </div>
-                    </form>
-                    <svg class="footer__logo" width="165" height="28">
-                        <use xlink:href="../symbols/symbols.svg?1669637052#logo"></use>
-                    </svg>
-                    <div class="footer__note caption">
-                        Доступно, качественно, для лучшего будущего молодежи и&nbsp;России
-                    </div>
-                    <div class="footer__copyright caption">
-                        © ООО ЕГЭнатор 2022<br>
-                        <a class="link link--text-alike" href="#">Политика конфиденциальности</a> / <a class="link link--text-alike" href="#">Договор оферты</a><br>
-                        ИНН 0913469672 / КПП 990308001
+                        <div class="footer__copyright caption">
+                            © ООО ЕГЭнатор 2022<br>
+                            <a class="link link--text-alike" href="#">Политика конфиденциальности</a> / <a class="link link--text-alike" href="#">Договор оферты</a><br>
+                            ИНН 0913469672 / КПП 990308001
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-
+            </footer>
+        </div>
         <div class="alert" style="display: none;">
             <div class="alert__label">
                 Спасибо! Вы&nbsp;подписаны на&nbsp;рассылку.<br class="hide hide_mobile">
@@ -292,10 +330,11 @@
         <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
         <script src="../vendors/outline/outline.js"></script>
         <script src="../vendors/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-        <script src="../scripts/_mfp.js?1669637052"></script>
-        <script src="../scripts/_faq.js?1669637052"></script>
-        <script src="../scripts/_alert.js?1669637052"></script>
-        <script src="../scripts/_subscription.js?1669637052"></script>
+        <script src="../scripts/_mfp.js?1669695949"></script>
+        <script src="../scripts/_faq.js?1669695949"></script>
+        <script src="../scripts/_alert.js?1669695949"></script>
+        <script src="../scripts/_subscription.js?1669695949"></script>
+        <script src="../scripts/_header.js?1669695949"></script>
 
 
     </body>
