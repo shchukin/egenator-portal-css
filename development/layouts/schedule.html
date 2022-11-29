@@ -15,257 +15,320 @@
             Вам необходимо <a href="http://browsehappy.com/?locale=ru_RU">обновить ваш браузер</a>.
         </div>
         <![endif]-->
-
-        <section class="timesheet container">
-            <h1 class="timesheet__heading">
-                Расписание онлайн-групп
-            </h1>
-            <div class="timesheet__menu hide-scrollbar">
-                <div class="timesheet__ribbon">
-                    <button class="timesheet__filter timesheet__filter--current" type="button">Все предметы</button>
-                    <button class="timesheet__filter" type="button">Математика</button>
-                    <button class="timesheet__filter" type="button">Русский язык</button>
-                    <button class="timesheet__filter" type="button">Информатика</button>
-                    <button class="timesheet__filter" type="button">Физика</button>
+        <header class="header">
+            <div class="header__wrap container">
+                <div class="header__panel">
+                    <button class="header__toggler" type="button">
+                        <img class="header__burger" src="../symbols/header-burger.svg" width="32" height="32" alt="">
+                        <img class="header__close" src="../symbols/header-close.svg" width="32" height="32" alt="">
+                    </button>
+                    <a class="header__logo" href="#">
+                        <img class="header__emblem" src="../symbols/logo.svg" width="165" height="28" alt="">
+                    </a>
+                </div>
+                <div class="header__dropdown">
+                    <div class="header__contacts">
+                        <a class="header__phone title title--h6" href="tel:+78001872277">8 800 187 22 77</a>
+                        <div class="header__callback">
+                            <a class="link link--white" href="#">Перезвоните мне</a>
+                        </div>
+                    </div>
+                    <a class="header__auth" href="#">
+                        <div class="header__preview">
+                            <img class="header__avatar" src="../content/ironman.svg" width="48" height="48" alt="">
+                        </div>
+                        <div class="header__login">
+                            Войти
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="timesheet__data">
-                <div class="timesheet__row timesheet__row--head">
-                    <div class="timesheet__cell timesheet__cell--beginning">Старт</div>
-                    <div class="timesheet__cell timesheet__cell--course">Курс</div>
-                    <div class="timesheet__cell timesheet__cell--amount">Кол-во и тип занятий</div>
-                    <div class="timesheet__cell timesheet__cell--teacher">Препод</div>
+        </header>
+        <div class="page">
+            <section class="timesheet container">
+                <h1 class="timesheet__heading">
+                    Расписание онлайн-групп
+                </h1>
+                <div class="timesheet__menu hide-scrollbar">
+                    <div class="timesheet__ribbon">
+                        <button class="timesheet__filter timesheet__filter--current" type="button">Все предметы</button>
+                        <button class="timesheet__filter" type="button">Математика</button>
+                        <button class="timesheet__filter" type="button">Русский язык</button>
+                        <button class="timesheet__filter" type="button">Информатика</button>
+                        <button class="timesheet__filter" type="button">Физика</button>
+                    </div>
                 </div>
-                <a class="timesheet__row timesheet__row--body" href="#">
-                    <div class="timesheet__cell timesheet__cell--beginning">
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
-                            Сб, 27 сентября
-                        </div>
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
-                            09:00-13:00
-                        </div>
+                <div class="timesheet__data">
+                    <div class="timesheet__row timesheet__row--head">
+                        <div class="timesheet__cell timesheet__cell--beginning">Старт</div>
+                        <div class="timesheet__cell timesheet__cell--course">Курс</div>
+                        <div class="timesheet__cell timesheet__cell--amount">Кол-во и тип занятий</div>
+                        <div class="timesheet__cell timesheet__cell--teacher">Препод</div>
                     </div>
-                    <div class="timesheet__cell timesheet__cell--course">
-                        <div class="timesheet__tag badge">Информатика</div>
-                        <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--amount">
-                        <div class="timesheet__stat timesheet__stat--online-classes">
-                            <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
-                            20 онлайн-занятий
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--teacher">
-                        <div class="timesheet__photo avatar avatar--clickable">
-                            <img class="avatar__image"
-                                 srcset="../temp/person-c-48x48@2x.jpg 2x"
-                                 src="../temp/person-c-48x48.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt="Elon Musk"
-                            >
-                        </div>
-                    </div>
-                </a>
-                <a class="timesheet__row timesheet__row--body" href="#">
-                    <div class="timesheet__cell timesheet__cell--beginning">
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
-                            Сб, 27 сентября
-                        </div>
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
-                            09:00-13:00
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--course">
-                        <div class="timesheet__tag badge">Информатика</div>
-                        <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--amount">
-                        <div class="timesheet__stat timesheet__stat--online-classes">
-                            <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
-                            20 онлайн-занятий
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--teacher">
-                        <div class="timesheet__photo avatar avatar--clickable">
-                            <img class="avatar__image"
-                                 srcset="../temp/person-c-48x48@2x.jpg 2x"
-                                 src="../temp/person-c-48x48.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt="Elon Musk"
-                            >
-                        </div>
-                    </div>
-                </a>
-                <a class="timesheet__row timesheet__row--body" href="#">
-                    <div class="timesheet__cell timesheet__cell--beginning">
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
-                            Сб, 27 сентября
-                        </div>
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
-                            09:00-13:00
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--course">
-                        <div class="timesheet__tag badge">Информатика</div>
-                        <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--amount">
-                        <div class="timesheet__stat timesheet__stat--online-classes">
-                            <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
-                            20 онлайн-занятий
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--teacher">
-                        <div class="timesheet__photo avatar avatar--clickable">
-                            <img class="avatar__image"
-                                 srcset="../temp/person-c-48x48@2x.jpg 2x"
-                                 src="../temp/person-c-48x48.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt="Elon Musk"
-                            >
-                        </div>
-                    </div>
-                </a>
-                <a class="timesheet__row timesheet__row--body" href="#">
-                    <div class="timesheet__cell timesheet__cell--beginning">
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
-                            Сб, 27 сентября
-                        </div>
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
-                            09:00-13:00
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--course">
-                        <div class="timesheet__tag badge">Информатика</div>
-                        <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--amount">
-                        <div class="timesheet__stat timesheet__stat--online-classes">
-                            <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
-                            20 онлайн-занятий
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--teacher">
-                        <div class="timesheet__photo avatar avatar--clickable">
-                            <img class="avatar__image"
-                                 srcset="../temp/person-c-48x48@2x.jpg 2x"
-                                 src="../temp/person-c-48x48.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt="Elon Musk"
-                            >
-                        </div>
-                    </div>
-                </a>
-                <a class="timesheet__row timesheet__row--body" href="#">
-                    <div class="timesheet__cell timesheet__cell--beginning">
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
-                            Сб, 27 сентября
-                        </div>
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
-                            09:00-13:00
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--course">
-                        <div class="timesheet__tag badge">Информатика</div>
-                        <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--amount">
-                        <div class="timesheet__stat timesheet__stat--online-classes">
-                            <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
-                            20 онлайн-занятий
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--teacher">
-                        <div class="timesheet__photo avatar avatar--clickable">
-                            <img class="avatar__image"
-                                 srcset="../temp/person-c-48x48@2x.jpg 2x"
-                                 src="../temp/person-c-48x48.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt="Elon Musk"
-                            >
-                        </div>
-                    </div>
-                </a>
-                <a class="timesheet__row timesheet__row--body" href="#">
-                    <div class="timesheet__cell timesheet__cell--beginning">
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
-                            Сб, 27 сентября
-                        </div>
-                        <div class="timesheet__stat">
-                            <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
-                            09:00-13:00
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--course">
-                        <div class="timesheet__tag badge">Информатика</div>
-                        <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--amount">
-                        <div class="timesheet__stat timesheet__stat--online-classes">
-                            <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
-                            20 онлайн-занятий
-                        </div>
-                    </div>
-                    <div class="timesheet__cell timesheet__cell--teacher">
-                        <div class="timesheet__photo avatar avatar--clickable">
-                            <img class="avatar__image"
-                                 srcset="../temp/person-c-48x48@2x.jpg 2x"
-                                 src="../temp/person-c-48x48.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt="Elon Musk"
-                            >
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="timesheet__footer">
-                <a class="button button--secondary button--larger" href="#">Показать больше</a>
-            </div>
-        </section>
-        <section class="join">
-            <div class="join__wrap container">
-                <div class="join__window">
-                    <div class="join__body">
-                        <h2 class="join__heading">
-                            Присоединяйся
-                            к&nbsp;сообществу учеников
-                            со&nbsp;всей страны
-                        </h2>
-                        <form class="join__form subscription subscription--vertical">
-                            <div class="subscription__body">
-                                <div class="subscription__field">
-                                    <label class="label" for="email">Электронная почта <span class="required">*</span></label>
-                                    <div class="input input--larger">
-                                        <input class="input__widget" type="email" id="email">
-                                    </div>
-                                </div>
-                                <div class="subscription__submit">
-                                    <div class="black-shadow">
-                                        <button class="button button--orange button--larger" type="button">
-                                            Начать заниматься
-                                        </button>
-                                    </div>
-                                </div>
+                    <a class="timesheet__row timesheet__row--body" href="#">
+                        <div class="timesheet__cell timesheet__cell--beginning">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
+                                Сб, 27 сентября
                             </div>
-                        </form>
-                        <div class="join__social media media--larger">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
+                                09:00-13:00
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--course">
+                            <div class="timesheet__tag badge">Информатика</div>
+                            <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--amount">
+                            <div class="timesheet__stat timesheet__stat--online-classes">
+                                <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
+                                20 онлайн-занятий
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--teacher">
+                            <div class="timesheet__photo avatar avatar--clickable">
+                                <img class="avatar__image"
+                                     srcset="../temp/person-c-48x48@2x.jpg 2x"
+                                     src="../temp/person-c-48x48.jpg"
+                                     width="48"
+                                     height="48"
+                                     alt="Elon Musk"
+                                >
+                            </div>
+                        </div>
+                    </a>
+                    <a class="timesheet__row timesheet__row--body" href="#">
+                        <div class="timesheet__cell timesheet__cell--beginning">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
+                                Сб, 27 сентября
+                            </div>
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
+                                09:00-13:00
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--course">
+                            <div class="timesheet__tag badge">Информатика</div>
+                            <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--amount">
+                            <div class="timesheet__stat timesheet__stat--online-classes">
+                                <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
+                                20 онлайн-занятий
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--teacher">
+                            <div class="timesheet__photo avatar avatar--clickable">
+                                <img class="avatar__image"
+                                     srcset="../temp/person-c-48x48@2x.jpg 2x"
+                                     src="../temp/person-c-48x48.jpg"
+                                     width="48"
+                                     height="48"
+                                     alt="Elon Musk"
+                                >
+                            </div>
+                        </div>
+                    </a>
+                    <a class="timesheet__row timesheet__row--body" href="#">
+                        <div class="timesheet__cell timesheet__cell--beginning">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
+                                Сб, 27 сентября
+                            </div>
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
+                                09:00-13:00
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--course">
+                            <div class="timesheet__tag badge">Информатика</div>
+                            <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--amount">
+                            <div class="timesheet__stat timesheet__stat--online-classes">
+                                <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
+                                20 онлайн-занятий
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--teacher">
+                            <div class="timesheet__photo avatar avatar--clickable">
+                                <img class="avatar__image"
+                                     srcset="../temp/person-c-48x48@2x.jpg 2x"
+                                     src="../temp/person-c-48x48.jpg"
+                                     width="48"
+                                     height="48"
+                                     alt="Elon Musk"
+                                >
+                            </div>
+                        </div>
+                    </a>
+                    <a class="timesheet__row timesheet__row--body" href="#">
+                        <div class="timesheet__cell timesheet__cell--beginning">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
+                                Сб, 27 сентября
+                            </div>
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
+                                09:00-13:00
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--course">
+                            <div class="timesheet__tag badge">Информатика</div>
+                            <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--amount">
+                            <div class="timesheet__stat timesheet__stat--online-classes">
+                                <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
+                                20 онлайн-занятий
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--teacher">
+                            <div class="timesheet__photo avatar avatar--clickable">
+                                <img class="avatar__image"
+                                     srcset="../temp/person-c-48x48@2x.jpg 2x"
+                                     src="../temp/person-c-48x48.jpg"
+                                     width="48"
+                                     height="48"
+                                     alt="Elon Musk"
+                                >
+                            </div>
+                        </div>
+                    </a>
+                    <a class="timesheet__row timesheet__row--body" href="#">
+                        <div class="timesheet__cell timesheet__cell--beginning">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
+                                Сб, 27 сентября
+                            </div>
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
+                                09:00-13:00
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--course">
+                            <div class="timesheet__tag badge">Информатика</div>
+                            <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--amount">
+                            <div class="timesheet__stat timesheet__stat--online-classes">
+                                <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
+                                20 онлайн-занятий
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--teacher">
+                            <div class="timesheet__photo avatar avatar--clickable">
+                                <img class="avatar__image"
+                                     srcset="../temp/person-c-48x48@2x.jpg 2x"
+                                     src="../temp/person-c-48x48.jpg"
+                                     width="48"
+                                     height="48"
+                                     alt="Elon Musk"
+                                >
+                            </div>
+                        </div>
+                    </a>
+                    <a class="timesheet__row timesheet__row--body" href="#">
+                        <div class="timesheet__cell timesheet__cell--beginning">
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/calendar.svg" width="16" height="16" alt="">
+                                Сб, 27 сентября
+                            </div>
+                            <div class="timesheet__stat">
+                                <img class="timesheet__icon" src="../symbols/time.svg" width="16" height="16" alt="">
+                                09:00-13:00
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--course">
+                            <div class="timesheet__tag badge">Информатика</div>
+                            <div class="timesheet__title headline headline--1">Вся информатика за 20 дней</div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--amount">
+                            <div class="timesheet__stat timesheet__stat--online-classes">
+                                <img class="timesheet__icon" src="../symbols/laptop.svg" width="16" height="16" alt="">
+                                20 онлайн-занятий
+                            </div>
+                        </div>
+                        <div class="timesheet__cell timesheet__cell--teacher">
+                            <div class="timesheet__photo avatar avatar--clickable">
+                                <img class="avatar__image"
+                                     srcset="../temp/person-c-48x48@2x.jpg 2x"
+                                     src="../temp/person-c-48x48.jpg"
+                                     width="48"
+                                     height="48"
+                                     alt="Elon Musk"
+                                >
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="timesheet__footer">
+                    <a class="button button--secondary button--larger" href="#">Показать больше</a>
+                </div>
+            </section>
+            <section class="join">
+                <div class="join__wrap container">
+                    <div class="join__window">
+                        <div class="join__body">
+                            <h2 class="join__heading">
+                                Присоединяйся
+                                к&nbsp;сообществу учеников
+                                со&nbsp;всей страны
+                            </h2>
+                            <form class="join__form subscription subscription--vertical">
+                                <div class="subscription__body">
+                                    <div class="subscription__field">
+                                        <label class="label" for="email">Электронная почта <span class="required">*</span></label>
+                                        <div class="input input--larger">
+                                            <input class="input__widget" type="email" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="subscription__submit">
+                                        <div class="black-shadow">
+                                            <button class="button button--orange button--larger" type="button">
+                                                Начать заниматься
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="join__social media media--larger">
+                                <a class="media__item" href="#">
+                                    <img class="media__icon" src="../symbols/media-vk.svg" alt="">
+                                </a>
+                                <a class="media__item" href="#">
+                                    <img class="media__icon" src="../symbols/media-instagram.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="join__agreement">
+                                Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
+                                на&nbsp;<a class="link link--text-color" href="#">Условия пользования сервисом</a> и <a class="link link--text-color" href="#">Политикой конфиденциальности</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__wrap container">
+                    <div class="footer__primary">
+                        <a class="footer__phone title title--h5" href="tel:+78001872277">
+                            8 800 187 22 77
+                        </a>
+                        <div class="footer__menu">
+                            <div class="footer__item">
+                                <a class="link link--inverted" href="#">Помощь</a>
+                            </div>
+                            <div class="footer__item">
+                                <a class="link link--inverted" href="#">Личный кабинет</a>
+                            </div>
+                            <div class="footer__item">
+                                <a class="link link--inverted" href="#">Журнал</a>
+                            </div>
+                        </div>
+                        <div class="footer__social media media--inverted media--sparse">
                             <a class="media__item" href="#">
                                 <img class="media__icon" src="../symbols/media-vk.svg" alt="">
                             </a>
@@ -273,15 +336,41 @@
                                 <img class="media__icon" src="../symbols/media-instagram.svg" alt="">
                             </a>
                         </div>
-                        <div class="join__agreement">
-                            Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
-                            на&nbsp;<a class="link link--text-color" href="#">Условия пользования сервисом</a> и <a class="link link--text-color" href="#">Политикой конфиденциальности</a>
+                    </div>
+                    <div class="footer__secondary">
+                        <div class="footer__intro">
+                            Получайте эксклюзивные новости о&nbsp;предстоящих курсах и&nbsp;новостях в&nbsp;сообществе ЕГЭнатор
                         </div>
-
+                        <form class="footer__form subscription subscription--smaller">
+                            <div class="subscription__body">
+                                <div class="subscription__field">
+                                    <div class="input">
+                                        <input class="input__widget" type="email" id="footer-email-subscription" placeholder="Введите ваш email">
+                                    </div>
+                                </div>
+                                <div class="subscription__submit">
+                                    <button class="button button--orange" type="button">
+                                        Подписаться
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <a class="footer__logo" href="#">
+                            <img class="footer__emblem" src="../symbols/logo.svg" width="165" height="28" alt="">
+                        </a>
+                        <div class="footer__note caption">
+                            Доступно, качественно, для лучшего будущего молодежи и&nbsp;России
+                        </div>
+                        <div class="footer__copyright caption">
+                            © ООО ЕГЭнатор 2022<br>
+                            <a class="link link--text-alike" href="#">Политика конфиденциальности</a> / <a class="link link--text-alike" href="#">Договор оферты</a><br>
+                            ИНН 0913469672 / КПП 990308001
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </footer>
+        </div>
+
 
         <div class="alert" style="display: none;">
             <div class="alert__label">
