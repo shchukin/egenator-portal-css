@@ -53,6 +53,10 @@
     color: var(--white);
 }
 
+.link--white {
+    color: var(--white);
+}
+
 
 .link--text-color,
 .wysiwyg .link--text-color {

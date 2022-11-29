@@ -16,7 +16,7 @@
             width: 390px;
             flex-shrink: 0;
         }
-            .footer__call {
+            .footer__phone {
                 display: inline-block;
                 vertical-align: top;
                 text-decoration: none;
@@ -52,8 +52,14 @@
             }
 
             .footer__logo {
+                display: block;
                 margin-top: 40px;
+            }
+
+            .footer__emblem {
                 vertical-align: top;
+                width: 166px;
+                height: auto;
                 fill: var(--white);
             }
 
@@ -62,7 +68,7 @@
             }
 
             .footer__copyright {
-                margin-top: 16px;
+                margin-top: 14px;
                 color: var(--grey-dark);
             }
 
@@ -88,7 +94,7 @@
                 width: auto;
                 /*flex-shrink: 0;*/
             }
-                .footer__call {
+                .footer__phone {
                     /*display: inline-block;*/
                     /*vertical-align: top;*/
                     /*text-decoration: none;*/
@@ -125,7 +131,7 @@
                     /*margin-top: 16px;*/
                 }
 
-                .footer__logo {
+                .footer__emblem {
                     /*margin-top: 40px;*/
                     /*vertical-align: top;*/
                     /*fill: var(--white);*/

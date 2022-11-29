@@ -8,17 +8,20 @@
     line-height: 60px;
 }
 
-
 .title--h4 {
     font-weight: var(--ultrabold);
     font-size: 38px;
     line-height: 42px;
 }
 
-
-
-.title--h6 {
+.title--h5 {
     font-weight: var(--ultrabold);
     font-size: 30px;
     line-height: 37px;
+}
+
+.title--h6 {
+    font-weight: var(--ultrabold);
+    font-size: 24px;
+    line-height: 30px;
 }
