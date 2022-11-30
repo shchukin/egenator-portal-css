@@ -23,6 +23,15 @@
         border-radius: 18px;
     }
 
+.black-border--screenshot {
+
+}
+    .black-border--screenshot::before {
+        left: 9px;
+        top: 9px;
+        border-radius: 16px;
+    }
+
 
 .black-border--big-radius {
 
@@ -42,4 +51,9 @@
 
     .black-border--to-left.black-border--larger::before {
         right: 7px;
+    }
+
+
+    .black-border--to-left.black-border--screenshot::before {
+        right: 9px;
     }

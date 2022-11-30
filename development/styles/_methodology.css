@@ -1,0 +1,66 @@
+.methodology {
+
+}
+    .methodology__heading {
+
+    }
+
+    .methodology__list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+        .methodology__item {
+            width: 369px; /* 9px картинка и бордюр слева */
+        }
+            .methodology__preview {
+                position: relative;
+                margin-left: 9px;
+            }
+                .methodology__frame {
+
+                }
+                    .methodology__screenshot {
+                        position: relative;
+                        vertical-align: top;
+                        border-radius: 16px;
+                    }
+
+                .methodology__index {
+                    position: absolute;
+                    left: 24px;
+                    bottom: 24px;
+                    width: 64px;
+                    height: 64px;
+                    box-shadow: 4px 4px 0 var(--black);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .methodology__item:nth-child(1) .methodology__index {
+                    background-color: var(--math-2);
+                }
+
+                .methodology__item:nth-child(2) .methodology__index {
+                    background-color: var(--informatics);
+                }
+
+                .methodology__item:nth-child(3) .methodology__index {
+                    background-color: var(--russian);
+                }
+
+            .methodology__sub-heading {
+                margin-top: 29px;
+                margin-bottom: 0;
+                font-family: var(--font-heading);
+                font-weight: var(--extrabold);
+                font-size: 30px;
+                line-height: 37px;
+            }
+
+            .methodology__description {
+                margin-top: 24px;
+                margin-bottom: 0;
+            }

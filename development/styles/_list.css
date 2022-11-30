@@ -1,0 +1,23 @@
+.list {
+    padding-left: 0;
+}
+    .list__item {
+        position: relative;
+        padding-left: 30px;
+        margin-top: 16px;
+    }
+
+    .list__item:first-child {
+        margin-top: 0;
+    }
+        .list__item::before {
+            content: "";
+            position: absolute;
+            left: 13px;
+            top: 9px;
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: currentColor;
+            border-radius: 50%;
+        }
