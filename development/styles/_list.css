@@ -21,3 +21,18 @@
             background-color: currentColor;
             border-radius: 50%;
         }
+
+
+
+@media (max-width: 639px) {
+
+    .list {
+
+    }
+        .list__item {
+            padding-left: 22px;
+        }
+            .list__item::before {
+                left: 8px;
+            }
+}

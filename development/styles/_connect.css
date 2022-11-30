@@ -131,3 +131,11 @@
                 padding-top: 40px;
                 color: var(--grey-dark);
             }
+
+
+@media (max-width: 639px) {
+
+    .connect {
+        display: none;
+    }
+}
