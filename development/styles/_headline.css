@@ -8,3 +8,11 @@
     font-size: 18px;
     line-height: 26px;
 }
+
+
+.headline--2 {
+    font-family: var(--font-heading);
+    font-weight: var(--ultrabold);
+    font-size: 20px;
+    line-height: 30px;
+}

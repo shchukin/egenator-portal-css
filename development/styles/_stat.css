@@ -1,0 +1,32 @@
+.stat {
+    position: relative;
+    font-size: var(--body-font);
+    line-height: var(--body-line);
+}
+    .stat__icon {
+        margin-top: 4px;
+        margin-right: 10px;
+        float: left;
+        vertical-align: top;
+        fill: currentColor;
+    }
+
+    .stat__label {
+        float: left;
+        min-width: 34px;
+    }
+
+
+@media (max-width: 639px) {
+    .stat {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+        .stat__icon {
+
+        }
+
+        .stat__label {
+
+        }
+}
