@@ -141,7 +141,7 @@
                 font-size: var(--body-font);
                 line-height: var(--body-line);
             }
-                .timesheet__icon {
+                .stat__icon {
                     position: absolute;
                     left: 0;
                     top: 3px;
@@ -150,7 +150,7 @@
                 }
 
             @media (min-width: 640px) {
-                .timesheet__stat--online-classes .timesheet__icon {
+                .timesheet__stat--online-classes .stat__icon {
                     display: none;
                 }
             }
@@ -275,7 +275,7 @@
                     /*font-size: var(--body-font);*/
                     /*line-height: var(--body-line);*/
                 }
-                    .timesheet__icon {
+                    .stat__icon {
                         /*position: absolute;*/
                         /*left: 0;*/
                         /*top: 3px;*/
