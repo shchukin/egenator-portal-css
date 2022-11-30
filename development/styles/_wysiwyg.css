@@ -122,11 +122,12 @@
 }
 
 .wysiwyg h3 {
-    /*font-weight: var(--font_weight_strong);*/
-    /*font-size: var(--font_size_smaller-title);*/
-    /*line-height: var(--font_line_smaller-title);*/
-    /*margin-top: var(--font_line_smaller-title);*/
-    /*margin-bottom: var(--font_line_smaller-title);*/
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-family: var(--font-heading);
+    font-weight: var(--ultrabold);
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .wysiwyg h4 {

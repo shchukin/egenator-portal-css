@@ -1,0 +1,147 @@
+.course {
+
+}
+    @media (min-width: 640px) {
+
+        .course__intro {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .course__item {
+            border-top: 1px solid #111111;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+            .course__question {
+                position: relative;
+                width: 100%;
+                border: none;
+                padding: 0;
+                background-color: transparent;
+                font-family: var(--font-heading);
+                font-weight: var(--extrabold);
+                font-size: 38px;
+                line-height: 42px;
+                text-align: left;
+            }
+                .course__label {
+
+                }
+
+            .course__answer {
+                margin-top: 32px;
+            }
+                .course__description {
+                    max-width: 1116px;
+                }
+
+        .course__steps {
+            border-top: 1px solid #111111;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+
+
+@media (max-width: 639px) {
+
+    .course__intro {
+        padding-bottom: 48px;
+    }
+
+    .course__item {
+        margin-top: -1px;
+    }
+        .course__question {
+            position: relative;
+            width: 100%;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            font-family: var(--font-heading);
+            font-weight: var(--ultrabold);
+            font-size: 20px;
+            line-height: 30px;
+            text-align: left;
+            cursor: pointer;
+        }
+            .course__question::before,
+            .course__question::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background-color: #111111;
+            }
+
+            .course__question::before {
+                top: 0;
+            }
+
+            .course__question::after {
+                bottom: 0;
+            }
+
+
+            .course__label {
+                position: relative;
+                z-index: 10;
+                display: block;
+                margin-left: -12px;
+                margin-right: -12px;
+                padding: 24px 12px;
+                border-radius: 8px;
+            }
+
+            .course__question:hover .course__label {
+                background-color: #FFFBEE;
+            }
+                .course__label::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    z-index: 20;
+                    right: 10px;
+                    top: 50%;
+                    margin-top: -12px;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url("../vectors/faq-angle.svg");
+                    background-size: 22px 24px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+
+        .course__answer {
+            display: none;
+            padding: 24px 0;
+        }
+            .course__description {
+
+            }
+                .course__description.wysiwyg,
+                .course__description .wysiwyg {
+                    font-size: var(--body-font);
+                    line-height: var(--body-line);
+                }
+
+    .course__item--expanded {
+
+    }
+        .course__item--expanded .course__answer {
+            display: block;
+        }
+
+        .course__item--expanded .course__label::after {
+            transform: scaleY(-1);
+        }
+
+    .course__steps {
+        margin-top: 64px;
+        padding-bottom: 32px;
+    }
+}
+
+
