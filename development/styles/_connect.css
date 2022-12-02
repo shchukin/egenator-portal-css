@@ -20,20 +20,9 @@
                 margin-bottom: 0;
             }
 
-            .connect__discount {
+            .connect__cost {
                 margin-top: 19px;
             }
-
-            .connect__price {
-                padding-bottom: 7px;
-            }
-                .connect__old-price {
-                    margin-left: 9px;
-                    font-weight: normal;
-                    font-size: 24px;
-                    line-height: 30px;
-                    color: var(--grey-light);
-                }
 
             .connect__section {
                 margin-top: 24px;

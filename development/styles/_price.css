@@ -1,0 +1,17 @@
+.price {
+    padding-bottom: 7px;
+}
+    .price__discount {
+
+    }
+
+    .price__value {
+
+    }
+        .price__old {
+            margin-left: 9px;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 30px;
+            color: var(--grey-light);
+        }

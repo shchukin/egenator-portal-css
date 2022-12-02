@@ -1,52 +1,78 @@
 .course {
 
 }
-    @media (min-width: 640px) {
 
+@media (min-width: 640px) {
+
+    .course__jumbotron {
+        padding-bottom: 80px;
+    }
         .course__intro {
-            padding-top: 80px;
-            padding-bottom: 80px;
-        }
 
-        .course__item {
-            border-top: 1px solid #111111;
-            padding-top: 60px;
-            padding-bottom: 60px;
         }
-            .course__question {
-                position: relative;
-                width: 100%;
-                border: none;
-                padding: 0;
-                background-color: transparent;
+            .course__heading {
+                margin-top: 0;
+                margin-bottom: 0;
                 font-family: var(--font-heading);
                 font-weight: var(--extrabold);
-                font-size: 38px;
-                line-height: 42px;
-                text-align: left;
+                font-size: 56px;
+                line-height: 60px;
             }
-                .course__label {
 
-                }
-
-            .course__answer {
-                margin-top: 32px;
-            }
-                .course__description {
-                    max-width: 1116px;
-                }
-
-        .course__steps {
-            border-top: 1px solid #111111;
-            padding-top: 80px;
-            padding-bottom: 80px;
+        .course__operations {
+            margin-top: 32px;
+            display: flex;
+            align-items: flex-start;
+            gap: 32px;
         }
+            .course__submit {
+
+            }
+
+            .course__cost {
+                margin-top: 6px;
+            }
+
+
+    .course__item {
+        border-top: 1px solid #111111;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
+        .course__question {
+            position: relative;
+            width: 100%;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            font-family: var(--font-heading);
+            font-weight: var(--extrabold);
+            font-size: 38px;
+            line-height: 42px;
+            text-align: left;
+        }
+            .course__label {
+
+            }
+
+        .course__answer {
+            margin-top: 32px;
+        }
+            .course__description {
+                max-width: 1116px;
+            }
+
+    .course__steps {
+        border-top: 1px solid #111111;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
 
 
 @media (max-width: 639px) {
 
-    .course__intro {
+    .course__jumbotron {
         padding-bottom: 48px;
     }
 
