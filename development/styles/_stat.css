@@ -1,24 +1,39 @@
 .stat {
-    position: relative;
-    font-size: var(--body-font);
-    line-height: var(--body-line);
+
 }
-    .stat__icon {
-        margin-top: 4px;
-        margin-right: 10px;
-        float: left;
-        vertical-align: top;
-        fill: currentColor;
+    .stat__heading {
+        margin-top: 0;
+        margin-bottom: 6px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
     }
 
-    .stat__label {
-        float: left;
-        min-width: 34px;
+    .stat__row {
+        position: relative;
+        font-size: var(--body-font);
+        line-height: var(--body-line);
+    }
+        .stat__icon {
+            margin-top: 4px;
+            margin-right: 10px;
+            float: left;
+            vertical-align: top;
+            fill: currentColor;
+        }
+
+        .stat__label {
+            float: left;
+            min-width: 34px;
+        }
+
+    .stat__details {
+        margin-top: 8px;
     }
 
 
 @media (max-width: 639px) {
-    .stat {
+    .stat__row {
         padding-top: 1px;
         padding-bottom: 1px;
     }

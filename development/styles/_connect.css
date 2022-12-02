@@ -31,21 +31,6 @@
             .connect__section:first-child {
                 margin-top: 0;
             }
-                .connect__sub-heading {
-                    margin-top: 0;
-                    margin-bottom: 6px;
-                    font-weight: bold;
-                    font-size: 16px;
-                    line-height: 24px;
-                }
-
-                .connect__widget {
-
-                }
-
-                .connect__details {
-                    margin-top: 8px;
-                }
 
         .connect__join {
             display: flex;
