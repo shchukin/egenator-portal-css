@@ -1,0 +1,117 @@
+.colorful-card {
+    position: relative;
+    display: block;
+    height: 240px;
+    padding: 24px 24px 116px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.colorful-card:hover {
+    filter: brightness(1.05) contrast(1.05);
+}
+
+.colorful-card--math-profile {
+    background-color: #FAE73D;
+    background-image: url("../images/colorful-card-math-profile.svg");
+}
+
+.colorful-card--math-basic {
+    background-color: var(--math-2);
+    background-image: url("../images/colorful-card-math-basic.svg");
+}
+
+.colorful-card--russian {
+    background-color: var(--russian);
+    background-image: url("../images/colorful-card-russian.svg");
+}
+
+.colorful-card--informatics {
+    background-color: var(--informatics);
+    background-image: url("../images/colorful-card-informatics.svg");
+}
+
+.colorful-card--physics {
+    background-color: var(--physics);
+    background-image: url("../images/colorful-card-physics.svg");
+}
+    .colorful-card__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: var(--font-heading);
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .colorful-card__addition {
+        margin-top: 10px;
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+    }
+        .colorful-card__tag {
+            padding: 1px 7px 3px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+
+@media (max-width: 639px) {
+
+    .colorful-card {
+        /*position: relative;*/
+        display: flex;
+        align-items: center;
+        height: auto;
+        min-height: 112px;
+        padding: 24px 56px 24px 24px;
+        /*background-size: auto 100%;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: right center;*/
+        /*border-radius: 16px;*/
+        /*text-decoration: none;*/
+        /*color: var(--black);*/
+    }
+        .colorful-card__heading {
+            /*margin-top: 0;*/
+            /*margin-bottom: 0;*/
+            /*font-family: var(--font-heading);*/
+            /*font-weight: normal;*/
+            /*font-size: 24px;*/
+            /*line-height: 32px;*/
+        }
+
+        .colorful-card__addition {
+            display: none;
+        }
+            .colorful-card__tag {
+                /*padding: 1px 7px 3px;*/
+                /*border: 1px solid rgba(0, 0, 0, 0.08);*/
+                /*border-radius: 4px;*/
+                /*font-size: 14px;*/
+                /*line-height: 22px;*/
+            }
+
+        .colorful-card::after {
+            content: "";
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            margin-top: -16px;
+            display: block;
+            width: 32px;
+            height: 32px;
+            background-image: url("../vectors/colorful-card-angle.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+}
+
