@@ -58,8 +58,10 @@
 
     --orange: #FAD03D; /* бывший цвет math */
 
-    --math-2: #FAD03D;
-    --math-2-light: #FBDD78;
+    --math: #FAE73D;         /* math profile */
+    /* math-light doesn't exist */
+    --math-2: #FAD03D;       /* math basic */
+    --math-2-light: #FBDD78; /* math basic */
     --russian: #34CCFF;
     --russian-light: #78D9FE;
     --informatics: #F497E5;

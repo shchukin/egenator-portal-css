@@ -1,0 +1,199 @@
+.expectations {
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+    .expectations__heading {
+        margin-top: 0;
+        margin-bottom: 60px;
+        font-family: var(--font-heading);
+        font-weight: var(--extrabold);
+        font-size: 46px;
+        line-height: 54px;
+        text-align: center;
+    }
+
+    .expectations__body {
+        /* наверное лучше без бордюра */
+        /*border-top: 2px solid var(--black);*/
+        /*border-bottom: 2px solid var(--black);*/
+    }
+        .expectations__section {
+            min-height: 573px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: stretch;
+        }
+            .expectations__preview {
+                position: relative;
+                padding-top: 65px;
+                padding-bottom: 65px;
+                overflow: hidden;
+            }
+                .expectations__screenshot {
+                    position: absolute;
+                    right: 100px;
+                    top: 50%;
+                    margin-top: -222px;
+                    vertical-align: top;
+                }
+
+            .expectations__content {
+                display: flex;
+                align-items: center;
+                padding: 65px 100px;
+            }
+                .expectations__center {
+                    max-width: 495px;
+                }
+                    .expectations__sub-heading {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        font-family: var(--font-heading);
+                        font-weight: var(--extrabold);
+                        font-size: 38px;
+                        line-height: 42px;
+                    }
+
+                    .expectations__description {
+                        margin-top: 24px;
+                        font-size: var(--body2-font);
+                        line-height: var(--body2-line);
+                    }
+
+                    .expectations__submit {
+                        margin-top: 32px;
+                    }
+
+        .expectations__section:nth-child(even) {
+
+        }
+            .expectations__section:nth-child(even) .expectations__preview {
+
+            }
+                .expectations__section:nth-child(even) .expectations__screenshot {
+                    right: auto;
+                    left: 100px;
+                }
+
+            .expectations__section:nth-child(even) .expectations__content {
+                order: -1;
+                justify-content: flex-end;
+            }
+
+
+@media (min-width: 1800px) {
+
+    .expectations__preview {
+
+    }
+        .expectations__screenshot {
+            left: 50%;
+            margin-left: -354px;
+        }
+
+        .expectations__section:nth-child(even) .expectations__screenshot {
+            left: auto;
+            right: 50%;
+            margin-right: -354px;
+        }
+
+    .expectations__content {
+
+    }
+        .expectations__center {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 709px;
+        }
+}
+
+
+
+@media (max-width: 639px) {
+
+    .expectations {
+        padding-top: 64px;
+        padding-bottom: 42px;
+    }
+        .expectations__heading {
+            /*margin-top: 0;*/
+            margin-bottom: 40px;
+            /*font-family: var(--font-heading);*/
+            /*font-weight: var(--extrabold);*/
+            font-size: 30px;
+            line-height: 37px;
+            /*text-align: center;*/
+        }
+
+        .expectations__body {
+
+        }
+            .expectations__section {
+                min-height: 0;
+                display: block;
+                /*grid-template-columns: 1fr 1fr;*/
+                /*align-items: stretch;*/
+            }
+                .expectations__preview {
+                    position: static;
+                    padding: 20px 37px;
+                    /*overflow: hidden;*/
+                }
+                    .expectations__screenshot {
+                        position: static;
+                        /*right: 100px;*/
+                        /*top: 50%;*/
+                        margin-top: 0;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                .expectations__content {
+                    /*display: flex;*/
+                    /*align-items: center;*/
+                    padding: 32px var(--mobile-container) 40px;
+                }
+                    .expectations__center {
+                        max-width: none;
+                    }
+                        .expectations__sub-heading {
+                            /*margin-top: 0;*/
+                            /*margin-bottom: 0;*/
+                            /*font-family: var(--font-heading);*/
+                            /*font-weight: var(--extrabold);*/
+                            font-size: 24px;
+                            line-height: 30px;
+                        }
+
+                        .expectations__description {
+                            /*margin-top: 24px;*/
+                            font-size: var(--body-font);
+                            line-height: var(--body-line);
+                        }
+
+                        .expectations__submit {
+                            /*margin-top: 32px;*/
+                            width: 100%;
+                        }
+                            .expectations__submit.button,
+                            .expectations__submit .button {
+                                width: 100%;
+                            }
+
+            .expectations__section:nth-child(even) {
+
+            }
+                .expectations__section:nth-child(even) .expectations__preview {
+
+                }
+                    .expectations__section:nth-child(even) .expectations__screenshot {
+                        /*right: auto;*/
+                        /*left: 100px;*/
+                    }
+
+                .expectations__section:nth-child(even) .expectations__content {
+                    /*order: -1;*/
+                    /*justify-content: flex-end;*/
+                }
+}
+

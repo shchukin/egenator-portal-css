@@ -4,8 +4,6 @@
     padding-top: 100px;
     padding-bottom: 120px;
 }
-
-
     .jumbotron__heading {
         margin-top: 0;
         margin-bottom: 0;
@@ -63,78 +61,82 @@
         }
 
 
-.jumbotron {
-    /*position: relative;*/
-    padding-right: 0;
-    padding-top: 34px;
-    padding-bottom: 64px;
-    /*padding-top: 100px;*/
-    /*padding-bottom: 120px;*/
-}
-    .jumbotron__heading {
-        /*margin-top: 0;*/
-        /*margin-bottom: 0;*/
-        /*font-family: var(--font-heading);*/
-        /*font-weight: var(--ultrabold);*/
-        font-size: 30px;
-        line-height: 37px;
-    }
 
-    .jumbotron__background {
-        position: static;
-        width: 240px;
-        height: 240px;
-        margin-top: -6px;
-        margin-left: -6px;
-        background-image: url("../images/jumbotron-mobile.jpg");
-        /*background-size: contain;*/
-        /*background-repeat: no-repeat;*/
-        /*background-position: center center;*/
+@media (max-width: 639px) {
+
+    .jumbotron {
+        /*position: relative;*/
+        padding-right: 0;
+        padding-top: 34px;
+        padding-bottom: 64px;
+        /*padding-top: 100px;*/
+        /*padding-bottom: 120px;*/
     }
-        @media (min-resolution: 2dppx) {
-            .jumbotron__background {
-                background-image: url("../images/jumbotron-mobile@2x.jpg");
+        .jumbotron__heading {
+            /*margin-top: 0;*/
+            /*margin-bottom: 0;*/
+            /*font-family: var(--font-heading);*/
+            /*font-weight: var(--ultrabold);*/
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .jumbotron__background {
+            position: static;
+            width: 240px;
+            height: 240px;
+            margin-top: -6px;
+            margin-left: -6px;
+            background-image: url("../images/jumbotron-mobile.jpg");
+            /*background-size: contain;*/
+            /*background-repeat: no-repeat;*/
+            /*background-position: center center;*/
+        }
+            @media (min-resolution: 2dppx) {
+                .jumbotron__background {
+                    background-image: url("../images/jumbotron-mobile@2x.jpg");
+                }
             }
+
+        .jumbotron__description {
+            margin-top: 8px;
+            font-size: var(--body-font);
+            line-height: var(--body-line);
         }
 
-    .jumbotron__description {
-        margin-top: 8px;
-        font-size: var(--body-font);
-        line-height: var(--body-line);
-    }
-
-    .jumbotron__join {
-        margin-top: 40px;
-        width: 100%;
-    }
-        .jumbotron__join.button,
-        .jumbotron__join .button {
+        .jumbotron__join {
+            margin-top: 40px;
             width: 100%;
-            padding-top: 13px;
-            padding-bottom: 15px;
-            font-size: 16px;
+        }
+            .jumbotron__join.button,
+            .jumbotron__join .button {
+                width: 100%;
+                padding-top: 13px;
+                padding-bottom: 15px;
+                font-size: 16px;
+            }
+
+        .jumbotron__sub-heading {
+            display: block;
+            margin-top: 41px;
+            margin-bottom: 0;
+            font-weight: normal;
+            font-size: var(--body-font);
+            line-height: var(--body-line);
+            text-align: center;
         }
 
-    .jumbotron__sub-heading {
-        display: block;
-        margin-top: 41px;
-        margin-bottom: 0;
-        font-weight: normal;
-        font-size: var(--body-font);
-        line-height: var(--body-line);
-        text-align: center;
-    }
-
-    .jumbotron__footer {
-        margin-top: 24px;
-        /*max-width: 580px;*/
-        /*display: flex;*/
-        /*flex-wrap: wrap;*/
-        gap: 8px;
-    }
-        .jumbotron__footer .button {
-            padding-top: 11px;
-            padding-bottom: 13px;
-            font-size: 16px;
+        .jumbotron__footer {
+            margin-top: 24px;
+            /*max-width: 580px;*/
+            /*display: flex;*/
+            /*flex-wrap: wrap;*/
+            gap: 8px;
         }
+            .jumbotron__footer .button {
+                padding-top: 11px;
+                padding-bottom: 13px;
+                font-size: 16px;
+            }
+}
 
