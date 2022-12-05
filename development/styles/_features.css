@@ -1,0 +1,95 @@
+.features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+    .features__item {
+        border: 2px solid var(--black);
+        padding: 290px 50px 73px;
+        background-size: 292px 218px;
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        border-radius: 16px;
+    }
+
+
+    .features__item--reports {
+        background-image: url("../images/features-item-reports.jpg");
+    }
+
+    @media (min-resolution: 2dppx) {
+
+        .features__item--reports {
+            background-image: url("../images/features-item-reports@2x.jpg");
+        }
+    }
+
+    .features__item--community {
+        background-image: url("../images/features-item-community.jpg");
+    }
+
+    @media (min-resolution: 2dppx) {
+
+        .features__item--community {
+            background-image: url("../images/features-item-community@2x.jpg");
+        }
+    }
+
+        .features__sub-heading {
+            display: block;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: var(--font-heading);
+            font-weight: var(--extrabold);
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .features__description {
+            margin-top: 24px;
+            font-size: var(--body2-font);
+            line-height: var(--body2-line);
+        }
+
+
+
+@media (max-width: 639px) {
+
+    .features {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: block;
+        /*grid-template-columns: 1fr 1fr;*/
+        /*gap: 24px;*/
+    }
+        .features__item {
+            margin-top: 24px;
+            /*border: 2px solid var(--black);*/
+            padding: 182px 30px 38px;
+            background-size: 161px 120px;
+            /*background-repeat: no-repeat;*/
+            /*background-position: 50px 50px;*/
+            /*border-radius: 16px;*/
+        }
+
+        .features__item:first-child {
+            margin-top: 0;
+        }
+            .features__sub-heading {
+                /*display: block;*/
+                /*margin-top: 24px;*/
+                /*margin-bottom: 0;*/
+                /*font-family: var(--font-heading);*/
+                /*font-weight: var(--extrabold);*/
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            .features__description {
+                /*margin-top: 24px;*/
+                font-size: var(--body-font);
+                line-height: var(--body-line);
+            }
+}
