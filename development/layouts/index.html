@@ -34,7 +34,7 @@
                             <a class="link link--white" href="#">Перезвоните мне</a>
                         </div>
                     </div>
-                    <a class="header__auth" href="#">
+                    <a class="header__auth mfp-handler" href="#login">
                         <div class="header__preview">
                             <img class="header__avatar" src="../content/ironman.svg" width="48" height="48" alt="">
                         </div>
@@ -912,6 +912,35 @@
             </div>
             <button class="alert__dismiss" type="button">
                 Закрыть
+            </button>
+        </div>
+
+
+        <div class="window mfp-hide" id="login">
+            <div class="auth">
+                <h2 class="auth__heading">
+                    Вход для учащихся
+                </h2>
+                <div class="auth__field">
+                    <label class="label" for="login-email">Электронная почта <span class="required">*</span></label>
+                    <div class="input input--larger">
+                        <input class="input__widget" type="email" id="login-email">
+                    </div>
+                </div>
+                <div class="auth__field">
+                    <label class="label" for="login-password">Пароль <span class="required">*</span></label>
+                    <div class="input input--larger">
+                        <input class="input__widget" type="password" id="login-password">
+                    </div>
+                    <a class="auth__recover link" href="#">
+                        Напомнить пароль
+                    </a>
+                </div>
+
+            </div>
+            <button class="window__close mfp-close" type="button">
+                <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <span class="visuallyhidden">Закрыть</span>
             </button>
         </div>
 

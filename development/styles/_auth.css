@@ -1,0 +1,47 @@
+.auth {
+    padding: 80px 104px;
+}
+    .auth__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: var(--font-heading);
+        font-weight: var(--ultrabold);
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .auth__body {
+        margin-top: 40px;
+        width: 390px;
+    }
+        .auth__field {
+            position: relative;
+            margin-top: 8px;
+        }
+
+        .auth__field:first-child {
+            margin-top: 0;
+        }
+            .auth__recover {
+                position: absolute;
+                right: 0;
+                top: -4px;
+                font-size: var(--body-font);
+                line-height: var(--body-line);
+            }
+
+    .auth__submit {
+        margin-top: 24px;
+        width: 100%;
+    }
+        .auth__submit .button {
+            width: 100%;
+        }
+
+    .auth__social {
+        margin-top: 32px;
+    }
+
+    .auth__alt-action {
+        margin-top: 46px;
+    }
