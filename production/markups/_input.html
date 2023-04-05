@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>.input</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/style.css?1680719936">
+    </head>
+
+    <body>
+
+
+        <div style="width: 600px; margin: 0 auto;">
+            <br>
+            <br>
+            <h1>.input</h1>
+
+
+            <div class="input">
+                <input class="input__widget" type="text" placeholder="Представьтесь">
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.input--area</h2>
+
+            <div class="input input--area">
+                <textarea class="input__widget" rows="4" placeholder="Введите сообшение"></textarea>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.input--disabled</h2>
+            <p>
+                Тут еще хорошо бы проставить атрибут <b>disabled</b> самому полю:
+            </p>
+
+            <div class="input input--disabled">
+                <input class="input__widget" type="email" disabled value="foobar@example.org">
+            </div>
+
+            <br>
+
+            <div class="input input--select input--has-icon input--disabled">
+                <select class="input__widget" disabled>
+                    <option value="placeholder">Выберите</option>
+                    <option>Lorem</option>
+                    <option>Ipsum</option>
+                    <option>Dolor</option>
+                    <option>Sit</option>
+                    <option>Amen</option>
+                </select>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.input--error</h2>
+
+            <div class="input input--error">
+                <input class="input__widget" type="email" value="$#%@!">
+            </div>
+            <div class="output">
+                Пароль не может быть короче 6 символов
+            </div>
+            <div class="output">
+                Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол, включая тире и подчёркивание
+            </div>
+            <div class="output">
+                Поле обязательно
+            </div>
+
+            <br>
+
+            <div class="input input--select input--error">
+                <select class="input__widget">
+                    <option value="placeholder">Выберите</option>
+                    <option>Lorem</option>
+                    <option>Ipsum</option>
+                    <option>Dolor</option>
+                    <option>Sit</option>
+                    <option>Amen</option>
+                </select>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+
+
+
+        <!-- Scripts -->
+        <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../vendors/outline/outline.js"></script>
+        <script src="../vendors/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+        <script src="../scripts/_mfp.js?1680719936"></script>
+
+
+    </body>
+</html>
+
+
+
