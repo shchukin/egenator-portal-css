@@ -51,8 +51,19 @@
 .auth--login {
     width: 1220px;
     background-image: url("../images/auth.png");
+    background-size: 490px 490px;
     background-repeat: no-repeat;
     background-position: right 87px top 87px;
 }
 
+@media (min-resolution: 2dppx) {
 
+    .auth--login {
+        background-image: url("../images/auth@2x.png");
+    }
+}
+
+
+.auth--password-recovery {
+    width: 1220px;
+}

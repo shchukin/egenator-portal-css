@@ -6,37 +6,18 @@
     background: linear-gradient(47.41deg, rgba(250, 208, 61, 0.53) 0%, rgba(255, 227, 107, 0) 73.95%), #FFFFFF;
     border-radius: 16px;
 }
+    .window__back {
+        position: absolute;
+        left: 32px;
+        top: 32px;
+    }
+
     .window__close {
         position: absolute;
-        right: 32px !important;
-        top: 32px !important;
-        width: 56px;
-        height: 48px;
-        border: 1px solid #D6D6D6 !important;
-        border-radius: 6px;
-        opacity: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        right: 32px !important; /* when used with .mfp-close */
+        top: 32px !important;   /* when used with .mfp-close */
+        opacity: 1 !important;  /* when used with .mfp-close */
     }
-
-    .window__close:hover {
-        background-color: var(--panel-hover);
-    }
-
-    .window__close:active {
-        background-color: var(--panel-active);
-    }
-        .window__cross {
-            position: absolute;
-            left: 0;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-            vertical-align: top;
-            fill: #000000;
-        }
 
     .window__body {
 
