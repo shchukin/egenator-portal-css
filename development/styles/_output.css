@@ -1,0 +1,11 @@
+.output {
+    padding-top: 9px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--error);
+}
+
+.output + .output {
+    padding-top: 5px;
+}

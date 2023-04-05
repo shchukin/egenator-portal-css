@@ -135,13 +135,13 @@
                 </h2>
                 <div class="auth__body">
                     <div class="auth__field">
-                        <label class="label" for="login-email">Электронная почта <span class="required">*</span></label>
+                        <label class="label" for="password-recovery-email">Электронная почта <span class="required">*</span></label>
                         <div class="input input--larger">
-                            <input class="input__widget" type="email" id="login-email">
+                            <input class="input__widget" type="email" id="password-recovery-email">
                         </div>
                     </div>
                     <div class="auth__submit black-shadow">
-                        <a class="button button--larger button--math" href="#">Прислать код для сброса</a>
+                        <button class="button button--larger button--math" type="submit">Прислать код для сброса</button>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                             </div>
                         </div>
                         <div class="auth__submit black-shadow">
-                            <a class="button button--larger button--math" href="#">Прислать код для сброса</a>
+                            <button class="button button--larger button--math" type="submit">Прислать код для сброса</button>
                         </div>
                     </div>
                 </div>
@@ -186,24 +186,27 @@
                 </h2>
                 <div class="auth__body">
                     <div class="auth__field">
-                        <label class="label" for="login-email">Код из письма <span class="required">*</span></label>
+                        <label class="label">Код из письма <span class="required">*</span></label>
                         <div class="opt-code">
-                            <div class="input input--larger">
-                                <input class="input__widget" type="email">
+                            <div class="opt-code__item input input--larger input--error">
+                                <input class="input__widget" type="text" maxlength="1">
                             </div>
-                            <div class="input input--larger">
-                                <input class="input__widget" type="email">
+                            <div class="opt-code__item input input--larger input--error">
+                                <input class="input__widget" type="text" maxlength="1">
                             </div>
-                            <div class="input input--larger">
-                                <input class="input__widget" type="email">
+                            <div class="opt-code__item input input--larger input--error">
+                                <input class="input__widget" type="text" maxlength="1">
                             </div>
-                            <div class="input input--larger">
-                                <input class="input__widget" type="email">
+                            <div class="opt-code__item input input--larger input--error">
+                                <input class="input__widget" type="text" maxlength="1">
                             </div>
+                        </div>
+                        <div class="output">
+                            Пароль не может быть короче 6 символов
                         </div>
                     </div>
                     <div class="auth__submit auth__submit--shortened black-shadow">
-                        <a class="button button--larger button--math" href="#">Далее</a>
+                        <button class="button button--larger button--math" type="submit">Далее</button>
                     </div>
                 </div>
             </div>
@@ -223,17 +226,31 @@
                 </button>
                 <div class="auth auth--password-recovery">
                     <h2 class="auth__heading">
-                        Введи электронную почту
+                        Введи код из письма
                     </h2>
                     <div class="auth__body">
                         <div class="auth__field">
-                            <label class="label" for="login-email">Электронная почта <span class="required">*</span></label>
-                            <div class="input input--larger">
-                                <input class="input__widget" type="email" id="login-email">
+                            <label class="label">Код из письма <span class="required">*</span></label>
+                            <div class="opt-code">
+                                <div class="opt-code__item input input--larger input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                                <div class="opt-code__item input input--larger input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                                <div class="opt-code__item input input--larger input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                                <div class="opt-code__item input input--larger input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                            </div>
+                            <div class="output">
+                                Пароль не может быть короче 6 символов
                             </div>
                         </div>
-                        <div class="auth__submit black-shadow">
-                            <a class="button button--larger button--math" href="#">Прислать код для сброса</a>
+                        <div class="auth__submit auth__submit--shortened black-shadow">
+                            <button class="button button--larger button--math" type="submit">Далее</button>
                         </div>
                     </div>
                 </div>

@@ -70,7 +70,7 @@
         }
 
 /*.input--faded {*/
-/**/
+
 /*}*/
 /*    .input--faded .input__widget {*/
 /*        border-color: var(--black-16pct);*/
@@ -81,10 +81,10 @@
 
 }
     .input--area .input__widget {
-        /*vertical-align: top;*/
-        /*height: auto; !* user rows="" attribute *!*/
-        /*min-height: 40px; !* one row *!*/
-        /*resize: vertical;*/
+        vertical-align: top;
+        height: auto; /* user rows="" attribute */
+        min-height: 40px; /* one row */
+        resize: vertical;
     }
 
 
@@ -99,7 +99,7 @@
         -moz-appearance: none;
         appearance: none;
         padding-right: 50px;
-        background-image: url("../vectors/select.svg");
+        background-image: url("../vectors/input-select.svg");
         background-size: 16px 16px;
         background-repeat: no-repeat;
         background-position: right 20px center;
@@ -150,3 +150,52 @@
             /*width: 62px;*/
         }
 }
+
+
+.input--disabled {
+
+}
+
+    .input--disabled .input__widget,
+    .input--disabled .input__widget:hover,
+    .input--disabled .input__widget:active {
+        background-color: #EEEEEE;
+        border-color: #CCCCCC;
+        -webkit-text-fill-color: #666666; /* safari зачем-то засветляет текст */
+        opacity: 1; /* ios safari зачем-то засветляет текст */
+        color: #666666;
+        box-shadow: none;
+        cursor: default;
+    }
+
+    @supports (-webkit-appearance: none) or (-moz-appearance: none) or (appearance: none) {
+        .input--disabled.input--select .input__widget {
+            background-image: url("../vectors/input-select-disabled.svg");
+        }
+    }
+
+
+.input--error {
+
+}
+
+    .input--error .input__label {
+        color: var(--error) !important;
+    }
+
+    .input--error .input__widget {
+        border-color: var(--error);
+        color: var(--error);
+    }
+
+    .input--error .input__icon,
+    .input--error .input__describe-action {
+        fill: var(--error);
+    }
+
+
+    @supports (-webkit-appearance: none) or (-moz-appearance: none) or (appearance: none) {
+        .input--error.input--select .input__widget {
+            background-image: url("../vectors/input-select-error.svg");
+        }
+    }

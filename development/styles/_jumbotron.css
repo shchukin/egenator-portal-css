@@ -24,6 +24,7 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
+        /* stylelint-disable-next-line */
         @media (min-resolution: 2dppx) {
             .jumbotron__background {
                 background-image: url("../images/jumbotron@2x.jpg");
@@ -92,6 +93,7 @@
             /*background-repeat: no-repeat;*/
             /*background-position: center center;*/
         }
+            /* stylelint-disable-next-line */
             @media (min-resolution: 2dppx) {
                 .jumbotron__background {
                     background-image: url("../images/jumbotron-mobile@2x.jpg");
