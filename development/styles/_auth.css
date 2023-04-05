@@ -38,6 +38,10 @@
             width: 100%;
         }
 
+        .auth__submit--shortened {
+            width: 240px;
+        }
+
     .auth__social {
         margin-top: 32px;
     }
