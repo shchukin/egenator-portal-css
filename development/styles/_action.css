@@ -1,12 +1,12 @@
 .action {
-    display: inline-flex;
+    display: inline-flex !important; /* !important is needed when used with mfp-close */
     align-items: center;
     justify-content: center;
     width: 56px;
     height: 48px;
     padding: 0;
     background-color: transparent;
-    border: 1px solid #D6D6D6 !important; /* when used with mfp-close */
+    border: 1px solid #D6D6D6 !important; /* !important is needed when used with mfp-close */
     border-radius: 6px;
     cursor: pointer;
 }

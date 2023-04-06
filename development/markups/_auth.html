@@ -107,8 +107,95 @@
                         </div>
                     </div>
                 </div>
-                <button class="window__close mfp-close" type="button">
-                    <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <button class="window__close action mfp-close" type="button">
+                    <img class="action__icon" src="../symbols/cross.svg" width="24" height="24" alt="">
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.auth--register</h2>
+
+            <div class="auth auth--register">
+                <h2 class="auth__heading">
+                    Присоединяйся к&nbsp;сообществу учеников со&nbsp;всей страны
+                </h2>
+                <div class="auth__body">
+                    <div class="auth__field">
+                        <label class="label" for="register-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="email" id="register-email">
+                        </div>
+                    </div>
+                    <div class="auth__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Начать заниматься</a>
+                    </div>
+                    <div class="auth__social media media--larger">
+                        <a class="media__item" href="#">
+                            <img class="media__icon" src="../symbols/media-vk.svg" alt="">
+                        </a>
+                        <a class="media__item" href="#">
+                            <img class="media__icon" src="../symbols/media-instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="auth__alt-action">
+                        <a class="link link--text-color" href="#">Войти в аккаунт</a>
+                    </div>
+                    <div class="auth__note">
+                        Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
+                        на Условия пользования сервисом и Политикой конфиденциальности
+                    </div>
+                </div>
+            </div>
+
+            <a class="mfp-handler" href="#register">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="register">
+                <div class="auth auth--register">
+                    <h2 class="auth__heading">
+                        Присоединяйся к&nbsp;сообществу учеников со&nbsp;всей страны
+                    </h2>
+                    <div class="auth__body">
+                        <div class="auth__field">
+                            <label class="label" for="register-email">Электронная почта <span class="required">*</span></label>
+                            <div class="input input--larger">
+                                <input class="input__widget" type="email" id="register-email">
+                            </div>
+                        </div>
+                        <div class="auth__submit black-shadow">
+                            <a class="button button--larger button--math" href="#">Начать заниматься</a>
+                        </div>
+                        <div class="auth__social media media--larger">
+                            <a class="media__item" href="#">
+                                <img class="media__icon" src="../symbols/media-vk.svg" alt="">
+                            </a>
+                            <a class="media__item" href="#">
+                                <img class="media__icon" src="../symbols/media-instagram.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="auth__alt-action">
+                            <a class="link link--text-color" href="#">Войти в аккаунт</a>
+                        </div>
+                        <div class="auth__note">
+                            Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
+                            на Условия пользования сервисом и Политикой конфиденциальности
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action mfp-close" type="button">
+                    <img class="action__icon" src="../symbols/cross.svg" width="24" height="24" alt="">
                     <span class="visuallyhidden">Закрыть</span>
                 </button>
             </div>
@@ -171,8 +258,8 @@
                         </div>
                     </div>
                 </div>
-                <button class="window__close mfp-close" type="button">
-                    <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <button class="window__close action mfp-close" type="button">
+                    <img class="action__icon" src="../symbols/cross.svg" width="24" height="24" alt="">
                     <span class="visuallyhidden">Закрыть</span>
                 </button>
             </div>
@@ -248,14 +335,145 @@
                             <div class="output">
                                 Пароль не может быть короче 6 символов
                             </div>
+                            <div class="output">
+                                Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол, включая тире и подчёркивание
+                            </div>
+                            <div class="output">
+                                Поле обязательно
+                            </div>
                         </div>
                         <div class="auth__submit auth__submit--shortened black-shadow">
                             <button class="button button--larger button--math" type="submit">Далее</button>
                         </div>
                     </div>
                 </div>
-                <button class="window__close mfp-close" type="button">
-                    <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <button class="window__close action mfp-close" type="button">
+                    <img class="action__icon" src="../symbols/cross.svg" width="24" height="24" alt="">
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="auth auth--password-recovery">
+                <h2 class="auth__heading">
+                    Создай новый пароль
+                </h2>
+                <div class="auth__body">
+                    <div class="auth__field">
+
+                        <!-- temp -->
+                        <p>Простой вариант со стандартной валидацией:<br><br></p>
+                        <!--/temp -->
+
+                        <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                        <div class="input input--larger input--has-eye">
+                            <input class="input__widget" type="password" id="new-password">
+                            <button class="input__toggle-password" type="button">
+                                <img class="input__eye" src="../symbols/eye.svg" width="24" height="24" alt="">
+                            </button>
+                        </div>
+                        <div class="output">
+                            Пароль не может быть короче 6 символов
+                        </div>
+                        <div class="output">
+                            Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол
+                        </div>
+                        <div class="output">
+                            Поле обязательно
+                        </div>
+
+                        <!-- temp -->
+                        <p><br><br>Желаемый вариант:<br><br></p>
+                        <!--/temp -->
+
+                        <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                        <div class="input input--larger input--has-eye">
+                            <input class="input__widget" type="password" id="new-password">
+                            <button class="input__toggle-password" type="button">
+                                <img class="input__eye" src="../symbols/eye.svg" width="24" height="24" alt="">
+                            </button>
+                            <div class="password-checklist">
+                                <div class="password-checklist__item password-checklist__item--passed">от 8 символов</div>
+                                <div class="password-checklist__item">хотя бы 1 цифра</div>
+                                <div class="password-checklist__item">хотя бы 1 буква</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="auth__submit black-shadow">
+                        <button class="button button--larger button--math" type="submit">Сохранить и Войти</button>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                <i>(Обрати внимание, тут модификатор <b>.auth__submit--shortened</b>)</i>
+            </p>
+
+            <a class="mfp-handler" href="#password-recovery-3">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="password-recovery-3">
+                <button class="window__back action" type="button">
+                    <img class="action__icon" src="../symbols/chevron-left.svg" width="24" height="24" alt="">
+                    <span class="visuallyhidden">Назад</span>
+                </button>
+                <div class="auth auth--password-recovery">
+                    <h2 class="auth__heading">
+                        Создай новый пароль
+                    </h2>
+                    <div class="auth__body">
+                        <div class="auth__field">
+
+                            <!-- temp -->
+                            <p>Простой вариант со стандартной валидацией:<br><br></p>
+                            <!--/temp -->
+
+                            <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                            <div class="input input--larger input--has-eye">
+                                <input class="input__widget" type="password" id="new-password">
+                                <button class="input__toggle-password" type="button">
+                                    <img class="input__eye" src="../symbols/eye.svg" width="24" height="24" alt="">
+                                </button>
+                            </div>
+                            <div class="output">
+                                Пароль не может быть короче 6 символов
+                            </div>
+                            <div class="output">
+                                Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол
+                            </div>
+                            <div class="output">
+                                Поле обязательно
+                            </div>
+
+                            <!-- temp -->
+                            <p><br><br>Желаемый вариант:<br><br></p>
+                            <!--/temp -->
+
+                            <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                            <div class="input input--larger input--has-eye">
+                                <input class="input__widget" type="password" id="new-password">
+                                <button class="input__toggle-password" type="button">
+                                    <img class="input__eye" src="../symbols/eye.svg" width="24" height="24" alt="">
+                                </button>
+                                <div class="password-checklist">
+                                    <div class="password-checklist__item password-checklist__item--passed">от 8 символов</div>
+                                    <div class="password-checklist__item">хотя бы 1 цифра</div>
+                                    <div class="password-checklist__item">хотя бы 1 буква</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="auth__submit black-shadow">
+                            <button class="button button--larger button--math" type="submit">Сохранить и Войти</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action mfp-close" type="button">
+                    <img class="action__icon" src="../symbols/cross.svg" width="24" height="24" alt="">
                     <span class="visuallyhidden">Закрыть</span>
                 </button>
             </div>

@@ -4,6 +4,7 @@
     .auth__heading {
         margin-top: 0;
         margin-bottom: 0;
+        max-width: 598px;
         font-family: var(--font-heading);
         font-weight: var(--ultrabold);
         font-size: 38px;
@@ -51,8 +52,15 @@
     }
 
 
+    .auth__note {
+        margin-top: 24px;
+        font-size: var(--caption-font);
+        line-height: var(--caption-line);
+        color: var(--grey-dark);
+    }
 
-.auth--login {
+.auth--login,
+.auth--register {
     width: 1220px;
     background-image: url("../images/auth.png");
     background-size: 490px 490px;
@@ -62,7 +70,8 @@
 
 @media (min-resolution: 2dppx) {
 
-    .auth--login {
+    .auth--login,
+    .auth--register {
         background-image: url("../images/auth@2x.png");
     }
 }
