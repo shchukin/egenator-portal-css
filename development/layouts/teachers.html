@@ -31,10 +31,10 @@
                     <div class="header__contacts">
                         <a class="header__phone title title--h6" href="tel:+78001872277">8 800 187 22 77</a>
                         <div class="header__callback">
-                            <a class="link link--white" href="#">Перезвоните мне</a>
+                            <a class="link link--white mfp-handler" href="#call">Перезвоните мне</a>
                         </div>
                     </div>
-                    <a class="header__auth" href="#">
+                    <a class="header__auth mfp-handler" href="#login">
                         <div class="header__preview">
                             <img class="header__avatar" src="../content/ironman.svg" width="48" height="48" alt="">
                         </div>
@@ -293,6 +293,129 @@
                 </div>
             </footer>
         </div>
+
+        <div class="window mfp-hide" id="login">
+            <div class="form form--login">
+                <h2 class="form__heading">
+                    Вход для учащихся
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="login-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="email" id="login-email">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="login-password">Пароль <span class="required">*</span></label>
+                        <div class="input input--larger input--has-eye">
+                            <input class="input__widget" type="password" id="login-password">
+                            <button class="input__toggle-password" type="button">
+                                <img class="input__eye" src="../symbols/eye.svg" width="24" height="24" alt="">
+                            </button>
+                        </div>
+                        <a class="form__recover link link--text-color" href="#">
+                            Напомнить пароль
+                        </a>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Войти</a>
+                    </div>
+                    <div class="form__social media media--larger">
+                        <a class="media__item" href="#">
+                            <img class="media__icon" src="../symbols/media-vk.svg" alt="">
+                        </a>
+                        <a class="media__item" href="#">
+                            <img class="media__icon" src="../symbols/media-instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="form__alt-action">
+                        <a class="link link--text-color" href="#">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </div>
+            <button class="window__close mfp-close" type="button">
+                <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <span class="visuallyhidden">Закрыть</span>
+            </button>
+        </div>
+
+        <div class="window mfp-hide" id="call">
+            <div class="form form--call">
+                <h2 class="form__heading">
+                    Перезвоните мне
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="call-name">Ваше имя <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="tel" id="call-name">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="call-tel">Номер телефона <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="tel" id="call-tel">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="call-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="email" id="call-email">
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Отправить</a>
+                    </div>
+                    <div class="form__note form__note--wide">
+                        Нажимая на кнопку, вы соглашаетесь с <a class="link link--text-color" href="#">Условия обработки данных</a>
+                    </div>
+                </div>
+            </div>
+            <button class="window__close mfp-close" type="button">
+                <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <span class="visuallyhidden">Закрыть</span>
+            </button>
+        </div>
+
+        <div class="window mfp-hide" id="question">
+            <div class="form form--question">
+                <h2 class="form__heading">
+                    Задать вопрос
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="question-email">Email адрес для ответа <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="email" id="question-email">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="question-tel">Ваш телефон <span class="required">*</span></label>
+                        <div class="input input--larger">
+                            <input class="input__widget" type="tel" id="question-tel">
+                        </div>
+                    </div>
+                    <div class="form__field form__field--wide">
+                        <label class="label" for="question-text">Вопрос <span class="required">*</span></label>
+                        <div class="input input--area">
+                            <textarea class="input__widget" rows="4" id="question-text"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Отправить</a>
+                    </div>
+                    <div class="form__note form__note--wide">
+                        Нажимая на кнопку, вы соглашаетесь с <a class="link link--text-color" href="#">Условия обработки данных</a>
+                    </div>
+                </div>
+            </div>
+            <button class="window__close mfp-close" type="button">
+                <img class="window__cross" src="../symbols/cross.svg" width="24" height="24" alt="">
+                <span class="visuallyhidden">Закрыть</span>
+            </button>
+        </div>
+
         <div class="alert" style="display: none;">
             <div class="alert__label">
                 Спасибо! Вы&nbsp;подписаны на&nbsp;рассылку.<br class="hide hide_mobile">

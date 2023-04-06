@@ -1,7 +1,7 @@
-.auth {
+.form {
     padding: 80px 104px;
 }
-    .auth__heading {
+    .form__heading {
         margin-top: 0;
         margin-bottom: 0;
         max-width: 598px;
@@ -11,19 +11,24 @@
         line-height: 42px;
     }
 
-    .auth__body {
+    .form__body {
         margin-top: 38px;
         width: 390px;
     }
-        .auth__field {
+        .form__field {
             position: relative;
             margin-top: 8px;
         }
 
-        .auth__field:first-child {
+        .form__field:first-child {
             margin-top: 0;
         }
-            .auth__recover {
+
+        .form__field--wide {
+            margin-right: -222px;
+        }
+
+            .form__recover {
                 position: absolute;
                 right: 0;
                 top: -4px;
@@ -31,36 +36,40 @@
                 line-height: var(--body-line);
             }
 
-    .auth__submit {
+    .form__submit {
         margin-top: 24px;
         width: 100%;
     }
-        .auth__submit .button {
+        .form__submit .button {
             width: 100%;
         }
 
-        .auth__submit--shortened {
+        .form__submit--shortened {
             width: 240px;
         }
 
-    .auth__social {
+    .form__social {
         margin-top: 32px;
     }
 
-    .auth__alt-action {
+    .form__alt-action {
         margin-top: 30px;
     }
 
 
-    .auth__note {
+    .form__note {
         margin-top: 24px;
         font-size: var(--caption-font);
         line-height: var(--caption-line);
         color: var(--grey-dark);
     }
 
-.auth--login,
-.auth--register {
+    .form__note--wide {
+        margin-right: -222px;
+    }
+
+.form--login,
+.form--register {
     width: 1220px;
     background-image: url("../images/auth.png");
     background-size: 490px 490px;
@@ -70,13 +79,21 @@
 
 @media (min-resolution: 2dppx) {
 
-    .auth--login,
-    .auth--register {
+    .form--login,
+    .form--register {
         background-image: url("../images/auth@2x.png");
     }
 }
 
 
-.auth--password-recovery {
+.form--password-recovery {
     width: 1220px;
+}
+
+.form--question {
+    width: 820px;
+}
+
+.form--call {
+    width: 820px;
 }

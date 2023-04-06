@@ -126,7 +126,14 @@
         animation: button-loading-spin 1s steps(12) infinite;
     }
 
-    .button--orange.button--loading::after {
+    .button--loading.button--orange::after,
+    .button--loading.button--white::after,
+    .button--loading.button--secondary::after,
+    .button--loading.button--math::after,
+    .button--loading.button--russian::after,
+    .button--loading.button--informatics::after,
+    .button--loading.button--biology::after,
+    .button--loading.button--physics::after {
         background-image: url("../vectors/button-loading.svg");
     }
 
@@ -151,7 +158,14 @@
         background-position: center center;
     }
 
-    .button--orange.button--success::after {
+    .button--success.button--orange::after,
+    .button--success.button--white::after,
+    .button--success.button--secondary::after,
+    .button--success.button--math::after,
+    .button--success.button--russian::after,
+    .button--success.button--informatics::after,
+    .button--success.button--biology::after,
+    .button--success.button--physics::after {
         background-image: url("../vectors/button-success.svg");
     }
 
