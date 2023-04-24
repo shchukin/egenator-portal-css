@@ -22,3 +22,18 @@
     .window__body {
 
     }
+
+
+@media (max-width: 639px) {
+
+    .window {
+        width: 100%;
+    }
+        .window__back {
+            left: 24px;
+        }
+
+        .window__close {
+            right: 24px !important;
+        }
+}
