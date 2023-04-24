@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>.form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/style.css?1682357262">
+    </head>
+
+    <body>
+
+
+
+        <div style="width: 1220px; margin: 0 auto;">
+            <br>
+            <br>
+            <h1>.form</h1>
+
+            <br>
+            <br>
+            <br>
+            <h2>.form--login</h2>
+
+            <div class="form form--login">
+                <h2 class="form__heading">
+                    Вход для учащихся
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="login-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="email" id="login-email">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="login-password">Пароль <span class="required">*</span></label>
+                        <div class="input input--larger input--math input--has-eye">
+                            <input class="input__widget" type="password" id="login-password">
+                            <button class="input__toggle-password" type="button">
+                                <svg class="input__eye" width="24" height="24">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#eye"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="form__recover">
+                            <a class="link link--text-color" href="#">
+                                Напомнить пароль
+                            </a>
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Войти</a>
+                    </div>
+                    <div class="form__social media media--larger">
+                        <a class="media__item" href="#">
+                            <svg class="media__icon">
+                                <use xlink:href="../symbols/symbols.svg?1682357262#media-vk"></use>
+                            </svg>
+                        </a>
+                        <a class="media__item" href="#">
+                            <svg class="media__icon">
+                                <use xlink:href="../symbols/symbols.svg?1682357262#media-instagram"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="form__alt-action">
+                        <a class="link link--text-color" href="#">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </div>
+
+            <a class="mfp-handler" href="#login">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="login">
+                <div class="form form--login">
+                    <h2 class="form__heading">
+                        Вход для учащихся
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+                            <label class="label" for="login-email">Электронная почта <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="email" id="login-email">
+                            </div>
+                        </div>
+                        <div class="form__field">
+                            <label class="label" for="login-password">Пароль <span class="required">*</span></label>
+                            <div class="input input--larger input--math input--has-eye">
+                                <input class="input__widget" type="password" id="login-password">
+                                <button class="input__toggle-password" type="button">
+                                    <svg class="input__eye" width="24" height="24">
+                                        <use xlink:href="../symbols/symbols.svg?1682357262#eye"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="form__recover">
+                                <a class="link link--text-color" href="#">
+                                    Напомнить пароль
+                                </a>
+                            </div>
+                        </div>
+                        <div class="form__submit black-shadow">
+                            <a class="button button--larger button--math" href="#">Войти</a>
+                        </div>
+                        <div class="form__social media media--larger">
+                            <a class="media__item" href="#">
+                                <svg class="media__icon">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#media-vk"></use>
+                                </svg>
+                            </a>
+                            <a class="media__item" href="#">
+                                <svg class="media__icon">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#media-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="form__alt-action">
+                            <a class="link link--text-color" href="#">Зарегистрироваться</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.form--register</h2>
+
+            <div class="form form--register">
+                <h2 class="form__heading">
+                    Присоединяйся к&nbsp;сообществу учеников со&nbsp;всей страны
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="register-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="email" id="register-email">
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Начать заниматься</a>
+                    </div>
+                    <div class="form__social media media--larger">
+                        <a class="media__item" href="#">
+                            <svg class="media__icon">
+                                <use xlink:href="../symbols/symbols.svg?1682357262#media-vk"></use>
+                            </svg>
+                        </a>
+                        <a class="media__item" href="#">
+                            <svg class="media__icon">
+                                <use xlink:href="../symbols/symbols.svg?1682357262#media-instagram"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="form__alt-action">
+                        <a class="link link--text-color" href="#">Войти в аккаунт</a>
+                    </div>
+                    <div class="form__note">
+                        Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
+                        на Условия пользования сервисом и Политикой конфиденциальности
+                    </div>
+                </div>
+            </div>
+
+            <a class="mfp-handler" href="#register">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="register">
+                <div class="form form--register">
+                    <h2 class="form__heading">
+                        Присоединяйся к&nbsp;сообществу учеников со&nbsp;всей страны
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+                            <label class="label" for="register-email">Электронная почта <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="email" id="register-email">
+                            </div>
+                        </div>
+                        <div class="form__submit black-shadow">
+                            <a class="button button--larger button--math" href="#">Начать заниматься</a>
+                        </div>
+                        <div class="form__social media media--larger">
+                            <a class="media__item" href="#">
+                                <svg class="media__icon">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#media-vk"></use>
+                                </svg>
+                            </a>
+                            <a class="media__item" href="#">
+                                <svg class="media__icon">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#media-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="form__alt-action">
+                            <a class="link link--text-color" href="#">Войти в аккаунт</a>
+                        </div>
+                        <div class="form__note">
+                            Регистрируясь на платформе ЕГЭнатор, вы соглашаетесь
+                            на Условия пользования сервисом и Политикой конфиденциальности
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.form--password-recovery</h2>
+            <p>
+                Три модалки с одинаковыми модификатором <b>form--password-recovery</b>
+            </p>
+
+            <div class="form form--password-recovery">
+                <h2 class="form__heading">
+                    Введи электронную почту
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="password-recovery-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="email" id="password-recovery-email">
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <button class="button button--larger button--math" type="submit">Прислать код для сброса</button>
+                    </div>
+                </div>
+            </div>
+
+            <a class="mfp-handler" href="#password-recovery-1">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="password-recovery-1">
+                <button class="window__back action action--math" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#chevron-left"></use>
+                    </svg>
+                    <span class="visuallyhidden">Назад</span>
+                </button>
+                <div class="form form--password-recovery">
+                    <h2 class="form__heading">
+                        Введи электронную почту
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+                            <label class="label" for="password-recovery-email">Электронная почта <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="email" id="password-recovery-email">
+                            </div>
+                        </div>
+                        <div class="form__submit black-shadow">
+                            <button class="button button--larger button--math" type="submit">Прислать код для сброса</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="form form--password-recovery">
+                <h2 class="form__heading">
+                    Введи код из письма
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label">Код из письма <span class="required">*</span></label>
+                        <div class="opt-code">
+                            <div class="opt-code__item input input--larger input--math input--error">
+                                <input class="input__widget" type="text" maxlength="1">
+                            </div>
+                            <div class="opt-code__item input input--larger input--math input--error">
+                                <input class="input__widget" type="text" maxlength="1">
+                            </div>
+                            <div class="opt-code__item input input--larger input--math input--error">
+                                <input class="input__widget" type="text" maxlength="1">
+                            </div>
+                            <div class="opt-code__item input input--larger input--math input--error">
+                                <input class="input__widget" type="text" maxlength="1">
+                            </div>
+                        </div>
+                        <div class="output">
+                            Пароль не может быть короче 6 символов
+                        </div>
+                    </div>
+                    <div class="form__submit form__submit--shortened black-shadow">
+                        <button class="button button--larger button--math" type="submit">Далее</button>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                <i>(Обрати внимание, тут модификатор <b>.form__submit--shortened</b>)</i>
+            </p>
+
+            <a class="mfp-handler" href="#password-recovery-2">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="password-recovery-2">
+                <button class="window__back action action--math" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#chevron-left"></use>
+                    </svg>
+                    <span class="visuallyhidden">Назад</span>
+                </button>
+                <div class="form form--password-recovery">
+                    <h2 class="form__heading">
+                        Введи код из письма
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+                            <label class="label">Код из письма <span class="required">*</span></label>
+                            <div class="opt-code">
+                                <div class="opt-code__item input input--larger input--math input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                                <div class="opt-code__item input input--larger input--math input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                                <div class="opt-code__item input input--larger input--math input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                                <div class="opt-code__item input input--larger input--math input--error">
+                                    <input class="input__widget" type="text" maxlength="1">
+                                </div>
+                            </div>
+                            <div class="output">
+                                Пароль не может быть короче 6 символов
+                            </div>
+                            <div class="output">
+                                Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол, включая тире и подчёркивание
+                            </div>
+                            <div class="output">
+                                Поле обязательно
+                            </div>
+                        </div>
+                        <div class="form__submit form__submit--shortened black-shadow">
+                            <button class="button button--larger button--math" type="submit">Далее</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="form form--password-recovery">
+                <h2 class="form__heading">
+                    Создай новый пароль
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+
+                        <!-- temp -->
+                        <p>Простой вариант со стандартной валидацией:<br><br></p>
+                        <!--/temp -->
+
+                        <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                        <div class="input input--larger input--math input--has-eye">
+                            <input class="input__widget" type="password" id="new-password">
+                            <button class="input__toggle-password" type="button">
+                                <svg class="input__eye" width="24" height="24">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#eye"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="output">
+                            Пароль не может быть короче 6 символов
+                        </div>
+                        <div class="output">
+                            Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол
+                        </div>
+                        <div class="output">
+                            Поле обязательно
+                        </div>
+
+                        <!-- temp -->
+                        <p><br><br>Желаемый вариант:<br><br></p>
+                        <!--/temp -->
+
+                        <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                        <div class="input input--larger input--math input--has-eye">
+                            <input class="input__widget" type="password" id="new-password">
+                            <button class="input__toggle-password" type="button">
+                                <svg class="input__eye" width="24" height="24">
+                                    <use xlink:href="../symbols/symbols.svg?1682357262#eye"></use>
+                                </svg>
+                            </button>
+                            <div class="password-checklist">
+                                <div class="password-checklist__item password-checklist__item--passed">от 8 символов</div>
+                                <div class="password-checklist__item">хотя бы 1 цифра</div>
+                                <div class="password-checklist__item">хотя бы 1 буква</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <button class="button button--larger button--math" type="submit">Сохранить и Войти</button>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                <i>(Обрати внимание, тут модификатор <b>.form__submit--shortened</b>)</i>
+            </p>
+
+            <a class="mfp-handler" href="#password-recovery-3">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="password-recovery-3">
+                <button class="window__back action action--math" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#chevron-left"></use>
+                    </svg>
+                    <span class="visuallyhidden">Назад</span>
+                </button>
+                <div class="form form--password-recovery">
+                    <h2 class="form__heading">
+                        Создай новый пароль
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+
+                            <!-- temp -->
+                            <p>Простой вариант со стандартной валидацией:<br><br></p>
+                            <!--/temp -->
+
+                            <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                            <div class="input input--larger input--math input--has-eye">
+                                <input class="input__widget" type="password" id="new-password">
+                                <button class="input__toggle-password" type="button">
+                                    <svg class="input__eye" width="24" height="24">
+                                        <use xlink:href="../symbols/symbols.svg?1682357262#eye"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="output">
+                                Пароль не может быть короче 6 символов
+                            </div>
+                            <div class="output">
+                                Пароль должен содержать хотя бы одну цифру, знак препинания, или любой другой спецсимвол
+                            </div>
+                            <div class="output">
+                                Поле обязательно
+                            </div>
+
+                            <!-- temp -->
+                            <p><br><br>Желаемый вариант:<br><br></p>
+                            <!--/temp -->
+
+                            <label class="label" for="new-password">Пароль <span class="required">*</span></label>
+                            <div class="input input--larger input--math input--has-eye">
+                                <input class="input__widget" type="password" id="new-password">
+                                <button class="input__toggle-password" type="button">
+                                    <svg class="input__eye" width="24" height="24">
+                                        <use xlink:href="../symbols/symbols.svg?1682357262#eye"></use>
+                                    </svg>
+                                </button>
+                                <div class="password-checklist">
+                                    <div class="password-checklist__item password-checklist__item--passed">от 8 символов</div>
+                                    <div class="password-checklist__item">хотя бы 1 цифра</div>
+                                    <div class="password-checklist__item">хотя бы 1 буква</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form__submit black-shadow">
+                            <button class="button button--larger button--math" type="submit">Сохранить и Войти</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.form--question</h2>
+
+            <div class="form form--question">
+                <h2 class="form__heading">
+                    Задать вопрос
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="question-email">Email адрес для ответа <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="email" id="question-email">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="question-tel">Ваш телефон <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="tel" id="question-tel">
+                        </div>
+                    </div>
+                    <div class="form__field form__field--wide">
+                        <label class="label" for="question-text">Вопрос <span class="required">*</span></label>
+                        <div class="input input--area input--larger input--math">
+                            <textarea class="input__widget" rows="4" id="question-text"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Отправить</a>
+                    </div>
+                    <div class="form__note form__note--wide">
+                        Нажимая на кнопку, вы соглашаетесь с <a class="link link--text-color" href="#">Условия обработки данных</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                <i>(Обрати внимание, тут модификаторы <b>.form__field--wide</b> и <b>.form__note--wide</b>)</i>
+            </p>
+
+            <a class="mfp-handler" href="#question">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="question">
+                <div class="form form--question">
+                    <h2 class="form__heading">
+                        Задать вопрос
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+                            <label class="label" for="question-email">Email адрес для ответа <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="email" id="question-email">
+                            </div>
+                        </div>
+                        <div class="form__field">
+                            <label class="label" for="question-tel">Ваш телефон <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="tel" id="question-tel">
+                            </div>
+                        </div>
+                        <div class="form__field form__field--wide">
+                            <label class="label" for="question-text">Вопрос <span class="required">*</span></label>
+                            <div class="input input--area input--larger input--math">
+                                <textarea class="input__widget" rows="4" id="question-text"></textarea>
+                            </div>
+                        </div>
+                        <div class="form__submit black-shadow">
+                            <a class="button button--larger button--math" href="#">Отправить</a>
+                        </div>
+                        <div class="form__note form__note--wide">
+                            Нажимая на кнопку, вы соглашаетесь с <a class="link link--text-color" href="#">Условия обработки данных</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>.form--call</h2>
+
+            <div class="form form--call">
+                <h2 class="form__heading">
+                    Перезвоните мне
+                </h2>
+                <div class="form__body">
+                    <div class="form__field">
+                        <label class="label" for="call-name">Ваше имя <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="tel" id="call-name">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="call-tel">Номер телефона <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="tel" id="call-tel">
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="label" for="call-email">Электронная почта <span class="required">*</span></label>
+                        <div class="input input--larger input--math">
+                            <input class="input__widget" type="email" id="call-email">
+                        </div>
+                    </div>
+                    <div class="form__submit black-shadow">
+                        <a class="button button--larger button--math" href="#">Отправить</a>
+                    </div>
+                    <div class="form__note form__note--wide">
+                        Нажимая на кнопку, вы соглашаетесь с <a class="link link--text-color" href="#">Условия обработки данных</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                <i>(Обрати внимание, тут модификаторы <b>.form__field--wide</b> и <b>.form__note--wide</b>)</i>
+            </p>
+
+            <a class="mfp-handler" href="#call">
+                Посмотреть в модальном окне
+            </a>
+
+            <div class="window mfp-hide" id="call">
+                <div class="form form--question">
+                    <h2 class="form__heading">
+                        Задать вопрос
+                    </h2>
+                    <div class="form__body">
+                        <div class="form__field">
+                            <label class="label" for="question-email">Email адрес для ответа <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="email" id="question-email">
+                            </div>
+                        </div>
+                        <div class="form__field">
+                            <label class="label" for="question-tel">Ваш телефон <span class="required">*</span></label>
+                            <div class="input input--larger input--math">
+                                <input class="input__widget" type="tel" id="question-tel">
+                            </div>
+                        </div>
+                        <div class="form__field form__field--wide">
+                            <label class="label" for="question-text">Вопрос <span class="required">*</span></label>
+                            <div class="input input--area input--larger input--math">
+                                <textarea class="input__widget" rows="4" id="question-text"></textarea>
+                            </div>
+                        </div>
+                        <div class="form__submit black-shadow">
+                            <a class="button button--larger button--math" href="#">Отправить</a>
+                        </div>
+                        <div class="form__note form__note--wide">
+                            Нажимая на кнопку, вы соглашаетесь с <a class="link link--text-color" href="#">Условия обработки данных</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="window__close action action--math mfp-close" type="button">
+                    <svg class="action__icon" width="24" height="24">
+                        <use xlink:href="../symbols/symbols.svg?1682357262#cross"></use>
+                    </svg>
+                    <span class="visuallyhidden">Закрыть</span>
+                </button>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+
+        <div class="alert" style="display: none;">
+            <div class="alert__label">
+                Спасибо! Вы&nbsp;подписаны на&nbsp;рассылку.<br class="hide hide_mobile">
+                На&nbsp;вашу почту скоро придут материалы и&nbsp;шпаргалки по&nbsp;ЕГЭ.
+            </div>
+            <button class="alert__dismiss" type="button">
+                Закрыть
+            </button>
+        </div>
+
+        <!-- Scripts -->
+        <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../vendors/outline/outline.js"></script>
+        <script src="../vendors/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+        <script src="../scripts/_mfp.js?1682357262"></script>
+        <script src="../scripts/_faq.js?1682357262"></script>
+        <script src="../scripts/_alert.js?1682357262"></script>
+        <script src="../scripts/_subscription.js?1682357262"></script>
+        <script src="../scripts/_header.js?1682357262"></script>
+        <script src="../scripts/_course.js?1682357262"></script>
+        <script src="../scripts/_begin.js?1682357262"></script>
+
+
+    </body>
+</html>
+
+
+
