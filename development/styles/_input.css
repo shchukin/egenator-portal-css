@@ -131,6 +131,14 @@
         width: 62px;
     }
 
+.input--larger.input--area {
+
+}
+    .input--larger.input--area .input__widget {
+        height: auto;
+        min-height: 64px; /* one row */
+    }
+
 
 @media (max-width: 639px) {
 
@@ -198,4 +206,22 @@
         .input--error.input--select .input__widget {
             background-image: url("../vectors/input-select-error.svg");
         }
+    }
+
+
+
+.input--math {
+
+}
+    .input--math .input__widget {
+        border-color: var(--math-2);
+    }
+
+    .input--math .input__toggle-password:hover {
+        background-color: var(--math-2-light);
+    }
+
+
+    .input--math .input__toggle-password:active {
+        background-color: var(--math-2);
     }

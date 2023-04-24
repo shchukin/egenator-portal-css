@@ -6,7 +6,7 @@
     height: 48px;
     padding: 0;
     background-color: transparent;
-    border: 1px solid #D6D6D6 !important; /* !important is needed when used with mfp-close */
+    border: 1px solid rgba(0, 0, 0, 0.16) !important; /* !important is needed when used with mfp-close */
     border-radius: 6px;
     cursor: pointer;
 }
@@ -21,4 +21,20 @@
     .action__icon {
         vertical-align: top;
         fill: #000000;
+        pointer-events: none; /* !important is needed when used with mfp-close */
     }
+
+
+.action--math {
+
+}
+
+.action--math:hover {
+    background-color: var(--math-2-light);
+    border-color: transparent !important;
+}
+
+.action--math:active {
+    background-color: var(--math-2);
+    border-color: transparent !important;
+}
