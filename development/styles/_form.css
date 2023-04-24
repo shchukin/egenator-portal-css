@@ -31,7 +31,7 @@
             .form__recover {
                 position: absolute;
                 right: 0;
-                top: -4px;
+                top: 0;
                 font-size: var(--body-font);
                 line-height: var(--body-line);
             }
@@ -96,4 +96,34 @@
 
 .form--call {
     width: 820px;
+}
+
+
+@media (max-width: 639px) {
+
+    .form {
+        padding: 96px 24px;
+        width: 100%;
+        background-image: none;
+    }
+        .form__heading {
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .form__body {
+            width: 100%;
+            max-width: 390px;
+        }
+            .form__field {
+
+            }
+
+            .form__field--wide {
+                margin-right: 0;
+            }
+
+            .form__note--wide {
+                margin-right: 0;
+            }
 }
