@@ -72,7 +72,9 @@
     --physics-light: #A0E1A8;
 
     --mobile-container: 24px;
-    --mobile-header: 72px;
+
+    --header-height: 88px;
+    --mobile-header-height: 72px;
 
     --image-fallback: #CCCCCC;
 
@@ -85,5 +87,6 @@
     /*--header-height: 72px;*/
     /*--black-background-separator: rgba(255, 255, 255, 0.16);*/
     /*--black-background-hover: rgba(255, 255, 255, 0.08);*/
+
 }
 /* stylelint-enable declaration-colon-space-after */

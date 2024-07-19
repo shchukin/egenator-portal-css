@@ -1,0 +1,28 @@
+.logo {
+    width: 230px;
+    height: 66px;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (min-resolution: 2dppx) {
+
+    .logo {
+        background-image: url("../images/logo@2x.png");
+    }
+}
+
+
+
+@media (max-width: 639px) {
+
+    .logo {
+        width: 190px;
+        height: 55px;
+    }
+}
