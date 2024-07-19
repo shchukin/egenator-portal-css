@@ -1,8 +1,8 @@
 /* stylelint-disable declaration-colon-space-after */
 :root {
 
-    --font-default: "Inter", sans-serif;
-    --font-heading: "Montserrat", sans-serif; /* Был "RF Dewi Extended", но он платный */
+    --font-default: "Manrope", sans-serif;
+    --font-heading: "RF Dewi Extended", sans-serif;
     /*--image-fallback: #CCCCCC;*/
     --black: #111111;
     --white: #FFFEFB;
