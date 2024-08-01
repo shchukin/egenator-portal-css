@@ -84,6 +84,19 @@
 
 
 
+.link--text-alike-inverted,
+.wysiwyg .link--text-alike-inverted {
+    border-bottom-color: currentColor;
+    color: inherit;
+}
+
+.link--text-alike-inverted:hover,
+.wysiwyg .link--text-alike-inverted:hover {
+    border-bottom-color: transparent;
+}
+
+
+
 
 .link--fake,
 .link--fake:hover,
