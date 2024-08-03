@@ -1,0 +1,34 @@
+.article {
+    padding-top: 80px;
+    padding-bottom: 120px; /* Потому что нет секции .join */
+}
+    .article__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: var(--font-heading);
+        font-weight: var(--ultrabold);
+        font-size: 46px;
+        line-height: 54px;
+        text-align: center;
+    }
+
+    .article__body {
+        margin-top: 48px;
+    }
+
+
+@media (max-width: 639px) {
+
+    .article {
+        padding-top: 64px;
+        padding-bottom: 96px; /* Потому что нет секции .join */
+    }
+        .article__heading {
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .article__body {
+            margin-top: 24px;
+        }
+}
