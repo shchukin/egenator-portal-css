@@ -114,11 +114,11 @@
 
 
 .wysiwyg h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
     /*font-weight: var(--font_weight_strong);*/
     /*font-size: var(--font_size_default-title);*/
     /*line-height: var(--font_line_default-title);*/
-    /*margin-top: var(--font_line_default-title);*/
-    /*margin-bottom: var(--font_line_default-title);*/
 }
 
 .wysiwyg h3 {
