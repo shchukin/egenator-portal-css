@@ -173,7 +173,7 @@ gulp.task('index', function() {
 // Favicon: copy
 
 gulp.task('favicon', function () {
-    return gulp.src('developmentsrc/favicon/**/*')
+    return gulp.src('development/favicon/**/*')
         .pipe(plumber())
         .pipe(gulp.dest('production/favicon/'))
         ;
