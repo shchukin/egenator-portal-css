@@ -16,3 +16,10 @@
         background-image: url("../images/logo@2x.png");
     }
 }
+
+
+@media (max-width: 639px) {
+    .logo {
+        width: 180px;
+    }
+}
