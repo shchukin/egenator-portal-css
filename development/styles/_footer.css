@@ -23,8 +23,14 @@
                 color: var(--white);
             }
 
+            .footer__mail {
+                margin-top: 12px;
+                font-size: 20px;
+                color: var(--white);
+            }
+
             .footer__menu {
-                margin-top: 16px;
+                margin-top: 32px;
             }
                 .footer__item {
                     margin-top: 2px;
