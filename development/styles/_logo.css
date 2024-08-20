@@ -1,4 +1,5 @@
 .logo {
+    display: block;
     width: 230px;
     height: 66px;
     background-image: url("../images/logo-black-background@1x.png");
@@ -23,6 +24,28 @@
         background-image: url("../images/logo-black-background@3x.png");
     }
 }
+
+
+
+.logo--white-background {
+    background-image: url("../images/logo-white-background@1x.png");
+}
+
+
+@media (min-resolution: 1.5dppx) {
+
+    .logo--white-background {
+        background-image: url("../images/logo-white-background@2x.png");
+    }
+}
+
+@media (min-resolution: 2.5dppx) {
+
+    .logo--white-background {
+        background-image: url("../images/logo-white-background@3x.png");
+    }
+}
+
 
 
 @media (max-width: 639px) {
