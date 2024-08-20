@@ -1,7 +1,7 @@
 .logo {
     width: 230px;
     height: 66px;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/logo-black-background@1x.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -10,10 +10,17 @@
     overflow: hidden;
 }
 
-@media (min-resolution: 2dppx) {
+@media (min-resolution: 1.5dppx) {
 
     .logo {
-        background-image: url("../images/logo@2x.png");
+        background-image: url("../images/logo-black-background@2x.png");
+    }
+}
+
+@media (min-resolution: 2.5dppx) {
+
+    .logo {
+        background-image: url("../images/logo-black-background@3x.png");
     }
 }
 
