@@ -171,13 +171,16 @@
 
 
 .wysiwyg table {
-
+    vertical-align: top;
+    border-collapse: collapse;
 }
     .wysiwyg tr {
 
     }
+        .wysiwyg th,
         .wysiwyg td {
-
+            padding: 10px 12px;
+            border: 1px solid currentColor;
         }
 
         .wysiwyg thead th,
