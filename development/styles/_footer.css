@@ -75,6 +75,10 @@
                 margin-top: 10px;
             }
 
+            .footer__plans {
+
+            }
+
             .footer__copyright {
                 margin-top: 14px;
                 color: var(--grey-dark);
@@ -148,6 +152,10 @@
 
                 .footer__note {
                     /*margin-top: 10px;*/
+                }
+
+                .footer__plans {
+
                 }
 
                 .footer__copyright {
